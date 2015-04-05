@@ -1,6 +1,6 @@
 p.quote {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 8%;
   font-size: 22px;
   letter-spacing: 1px;
@@ -30,7 +30,7 @@ span.author {
 
 .menu-list {
   position: fixed;
-  top: 26.5%;
+  top: 21%;
   right: 3%;
   list-style: none;
   line-height: 40px;
@@ -233,4 +233,8 @@ div a.link-black:hover {
   color: white;
   text-decoration: none;
 }
+
+/*.project-details {
+  visibility: hidden;
+}*/
 
