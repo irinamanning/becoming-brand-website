@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  get '/' => 'application#index'
+  get '/' => 'static#index'
+  get '/projects' => 'static#projects'
+  get '/instagram' => 'static#instagram'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
