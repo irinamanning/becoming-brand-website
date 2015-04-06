@@ -3712,3 +3712,2398 @@ Started GET "/assets/main.css" for 127.0.0.1 at 2015-04-05 20:35:25 -0400
 
 
 Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2015-04-05 20:35:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 221ms (Views: 207.8ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (39.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:54 -0400
+
+
+Started GET "/assets/twitter-icon-black.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/linkedin-icon-black.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/instagram-icon-black.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/butterfly.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/menu-icon-red.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/who-we-are.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/what-we-do.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/web-design-circle.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/ux-design-circle.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/responsive-design-circle.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/branding-circle.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/mobile-design-circle.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/graphic-design-circle.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/work-space-image.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/our-principles.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/who-we-worked-with.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/qvc-logo.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/felixgilman.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/mc-logo.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/amazon-logo.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/rlg-logo.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/swig-logo.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/bb-logo-white.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/ask-us-anything.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/twitter-icon-white.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/linkedin-icon-white.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/assets/instagram-icon-white.png" for 127.0.0.1 at 2015-04-05 20:37:55 -0400
+
+
+Started GET "/test" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 144ms (Views: 142.9ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-04-05 20:37:56 -0400
+
+
+Started GET "/test" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 135ms (Views: 133.8ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:16 -0400
+
+
+Started GET "/test" for 127.0.0.1 at 2015-04-05 20:38:40 -0400
+Processing by StaticController#test as HTML
+  Rendered static/test.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 127ms (Views: 125.9ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+
+Started GET "/assets/assets/GiorgioS-Regular.otf" for 127.0.0.1 at 2015-04-05 20:38:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/GiorgioS-Regular.otf"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.5ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:46 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:46 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:46 -0400
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:46 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-05 20:38:46 -0400
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2015-04-05 20:38:46 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-05 20:50:58 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 48ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/index.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+...image_tag "butterfly.png" class="img-responsive" style="widt...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+...g" class="img-responsive" style="width: 100%; max-width: 140...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:43: syntax error, unexpected keyword_class, expecting tASSOC
+...ed.png", { id="menu-icon" class="big-padding-top" );@output_...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:53: syntax error, unexpected keyword_class, expecting ')'
+...mage_tag "who-we-are.png" class="img-responsive big-padding-...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+...mage_tag "what-we-do.png" class="img-responsive big-padding-...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:79: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ag "ux-design-circle.png" style="margin: auto;" class="img-c...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:79: syntax error, unexpected keyword_class, expecting ')'
+...ng" style="margin: auto;" class="img-centered" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:112: syntax error, unexpected keyword_class, expecting ')'
+...ag "work-space-image.png" class="img-responsive" style="widt...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+...g" class="img-responsive" style="width: 100%; height: 750px;...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:114: syntax error, unexpected keyword_class, expecting ')'
+..._tag "our-principles.png" class="big-padding-top big-padding...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:136: syntax error, unexpected keyword_class, expecting ')'
+... "who-we-worked-with.png" class="img-responsive big-padding-...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:164: syntax error, unexpected keyword_class, expecting ')'
+...e_tag "bb-logo-white.png" class="img-responsive img-centered...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:166: syntax error, unexpected keyword_class, expecting ')'
+...tag "ask-us-anything.png" class="small-padding-bottom" );@ou...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:169: syntax error, unexpected tIDENTIFIER, expecting ')'
+... "twitter-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:170: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."linkedin-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:171: syntax error, unexpected tIDENTIFIER, expecting ')'
+...instagram-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/index.html.erb:172: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."facebook-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^):
+  app/views/static/index.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/index.html.erb:43: syntax error, unexpected keyword_class, expecting tASSOC
+  app/views/static/index.html.erb:53: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:79: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/index.html.erb:79: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:112: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:112: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/index.html.erb:114: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:136: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:164: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:166: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/index.html.erb:169: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/index.html.erb:170: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/index.html.erb:171: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/index.html.erb:172: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-05 20:53:13 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/index.html.erb:172: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."facebook-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^):
+  app/views/static/index.html.erb:172: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-05 20:53:29 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (139.6ms)
+Completed 500 Internal Server Error in 144ms
+
+ActionView::Template::Error (undefined local variable or method `style' for #<#<Class:0x007ff2d43251a8>:0x007ff2d2309270>):
+    168:           <div class="small-padding-bottom">
+    169:             <a href="#" class="link-white"><%= image_tag "twitter-icon-white.png", :style=>"padding: 5px;" %></a>
+    170:             <a href="#" class="link-white"><%= image_tag "linkedin-icon-white.png", :style=>"padding: 5px;" %></a>
+    171:             <a href="#" class="link-white"><%= image_tag "instagram-icon-white.png", style=>"padding: 5px;" %></a>
+    172:             <!-- <a href="#" class="link-white"><%= image_tag "facebook-icon-white.png", :style=>"padding: 5px;" %></a> -->
+    173:           </div>
+    174:           <hr>
+  app/views/static/index.html.erb:171:in `_app_views_static_index_html_erb__2737550772724190415_70340442619520'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 216ms (Views: 215.4ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (19.3ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.7ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.5ms)
+
+
+Started GET "/assets/twitter-icon-black.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/instagram-icon-black.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/butterfly.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/menu-icon-red.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/what-we-do.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/linkedin-icon-black.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/who-we-are.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/web-design-circle.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/responsive-design-circle.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/ux-design-circle.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/branding-circle.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/mobile-design-circle.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/graphic-design-circle.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/work-space-image.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/our-principles.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/who-we-worked-with.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/amazon-logo.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/mc-logo.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/qvc-logo.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/felixgilman.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/rlg-logo.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/bb-logo-white.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/ask-us-anything.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/linkedin-icon-white.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/swig-logo.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/twitter-icon-white.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/assets/instagram-icon-white.png" for 127.0.0.1 at 2015-04-05 20:53:38 -0400
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-04-05 20:53:44 -0400
+Processing by StaticController#projects as HTML
+  Rendered static/projects.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+... "twitter-icon-black.png" style="margin-left: 25px;" );@outp...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."linkedin-icon-black.png" style="margin-left: 25px;" );@outp...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...instagram-icon-black.png" style="margin-left: 25px;" );@outp...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+...mage_tag "menu-icon-red.png" id="menu-icon" class="big-paddi...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+...n-red.png" id="menu-icon" class="big-padding-top" );@output_...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:50: syntax error, unexpected keyword_class, expecting ')'
+...g "work/felix-gilman.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:52: syntax error, unexpected keyword_class, expecting ')'
+...rk/felix-detail-home.png" class="img-responsive center-block...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:52: syntax error, unexpected tIDENTIFIER, expecting ')'
+...-responsive center-block" style="max-width: 800px;" );@outpu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:53: syntax error, unexpected keyword_class, expecting ')'
+...k/felix-detail-books.png" class="img-responsive center-block...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...-responsive center-block" style="max-width: 800px;"  );@outp...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:55: syntax error, unexpected keyword_class, expecting ')'
+...tag "work/elite-gold.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:57: syntax error, unexpected keyword_class, expecting ')'
+...ite-gold-detail-home.png" class="img-responsive center-block...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:58: syntax error, unexpected keyword_class, expecting ')'
+...d-detail-ipad-tilted.jpg" class="img-responsive center-block...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:60: syntax error, unexpected keyword_class, expecting ')'
+... image_tag "work/bfi.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+...work/bfi-detail-full.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:63: syntax error, unexpected keyword_class, expecting ')'
+...fi-detail-full-cover.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:64: syntax error, unexpected keyword_class, expecting ')'
+...ork/bfi-detail-cover.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+...work/bfi-detail-text.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:67: syntax error, unexpected keyword_class, expecting ')'
+...image_tag "work/swig.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:69: syntax error, unexpected keyword_class, expecting ')'
+...ork/swig-detail-girl.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:70: syntax error, unexpected keyword_class, expecting ')'
+...ork/swig-detail-list.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:71: syntax error, unexpected keyword_class, expecting ')'
+.../swig-detail-profile.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:73: syntax error, unexpected keyword_class, expecting ')'
+...( image_tag "work/bb.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:75: syntax error, unexpected keyword_class, expecting ')'
+...work/bb-detail-about.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:76: syntax error, unexpected keyword_class, expecting ')'
+..."work/bb-detail-ipad.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:78: syntax error, unexpected keyword_class, expecting ')'
+...ge_tag "work/element.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:80: syntax error, unexpected keyword_class, expecting ')'
+...lement-detail-mobile.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:81: syntax error, unexpected keyword_class, expecting ')'
+...t-detail-blue-poster.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:82: syntax error, unexpected keyword_class, expecting ')'
+...t-detail-two-posters.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:83: syntax error, unexpected keyword_class, expecting ')'
+...ent-detail-all-cards.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:84: syntax error, unexpected keyword_class, expecting ')'
+...element-detail-flyer.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:85: syntax error, unexpected keyword_class, expecting ')'
+...ement-detail-tickets.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+...g "work/unnamed-peak.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:90: syntax error, unexpected keyword_class, expecting ')'
+...image_tag "work/migm.jpg" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:100: syntax error, unexpected keyword_class, expecting ')'
+...e_tag "bb-logo-white.png" class="img-responsive img-centered...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:102: syntax error, unexpected keyword_class, expecting ')'
+...tag "ask-us-anything.png" class="small-padding-bottom" );@ou...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:105: syntax error, unexpected tIDENTIFIER, expecting ')'
+... "twitter-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."linkedin-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:107: syntax error, unexpected tIDENTIFIER, expecting ')'
+...instagram-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:108: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."facebook-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^):
+  app/views/static/projects.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:50: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:52: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:52: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:53: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:55: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:57: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:58: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:60: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:63: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:64: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:67: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:69: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:70: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:71: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:73: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:75: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:76: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:78: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:80: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:81: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:82: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:83: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:84: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:85: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:90: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:100: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:102: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:105: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:107: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:108: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-04-05 20:53:45 -0400
+Processing by StaticController#projects as HTML
+  Rendered static/projects.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+... "twitter-icon-black.png" style="margin-left: 25px;" );@outp...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."linkedin-icon-black.png" style="margin-left: 25px;" );@outp...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...instagram-icon-black.png" style="margin-left: 25px;" );@outp...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+...mage_tag "menu-icon-red.png" id="menu-icon" class="big-paddi...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+...n-red.png" id="menu-icon" class="big-padding-top" );@output_...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:50: syntax error, unexpected keyword_class, expecting ')'
+...g "work/felix-gilman.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:52: syntax error, unexpected keyword_class, expecting ')'
+...rk/felix-detail-home.png" class="img-responsive center-block...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:52: syntax error, unexpected tIDENTIFIER, expecting ')'
+...-responsive center-block" style="max-width: 800px;" );@outpu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:53: syntax error, unexpected keyword_class, expecting ')'
+...k/felix-detail-books.png" class="img-responsive center-block...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+...-responsive center-block" style="max-width: 800px;"  );@outp...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:55: syntax error, unexpected keyword_class, expecting ')'
+...tag "work/elite-gold.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:57: syntax error, unexpected keyword_class, expecting ')'
+...ite-gold-detail-home.png" class="img-responsive center-block...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:58: syntax error, unexpected keyword_class, expecting ')'
+...d-detail-ipad-tilted.jpg" class="img-responsive center-block...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:60: syntax error, unexpected keyword_class, expecting ')'
+... image_tag "work/bfi.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+...work/bfi-detail-full.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:63: syntax error, unexpected keyword_class, expecting ')'
+...fi-detail-full-cover.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:64: syntax error, unexpected keyword_class, expecting ')'
+...ork/bfi-detail-cover.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+...work/bfi-detail-text.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:67: syntax error, unexpected keyword_class, expecting ')'
+...image_tag "work/swig.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:69: syntax error, unexpected keyword_class, expecting ')'
+...ork/swig-detail-girl.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:70: syntax error, unexpected keyword_class, expecting ')'
+...ork/swig-detail-list.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:71: syntax error, unexpected keyword_class, expecting ')'
+.../swig-detail-profile.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:73: syntax error, unexpected keyword_class, expecting ')'
+...( image_tag "work/bb.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:75: syntax error, unexpected keyword_class, expecting ')'
+...work/bb-detail-about.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:76: syntax error, unexpected keyword_class, expecting ')'
+..."work/bb-detail-ipad.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:78: syntax error, unexpected keyword_class, expecting ')'
+...ge_tag "work/element.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:80: syntax error, unexpected keyword_class, expecting ')'
+...lement-detail-mobile.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:81: syntax error, unexpected keyword_class, expecting ')'
+...t-detail-blue-poster.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:82: syntax error, unexpected keyword_class, expecting ')'
+...t-detail-two-posters.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:83: syntax error, unexpected keyword_class, expecting ')'
+...ent-detail-all-cards.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:84: syntax error, unexpected keyword_class, expecting ')'
+...element-detail-flyer.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:85: syntax error, unexpected keyword_class, expecting ')'
+...ement-detail-tickets.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+...g "work/unnamed-peak.png" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:90: syntax error, unexpected keyword_class, expecting ')'
+...image_tag "work/migm.jpg" class="img-responsive portfolio-im...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:100: syntax error, unexpected keyword_class, expecting ')'
+...e_tag "bb-logo-white.png" class="img-responsive img-centered...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:102: syntax error, unexpected keyword_class, expecting ')'
+...tag "ask-us-anything.png" class="small-padding-bottom" );@ou...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:105: syntax error, unexpected tIDENTIFIER, expecting ')'
+... "twitter-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."linkedin-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:107: syntax error, unexpected tIDENTIFIER, expecting ')'
+...instagram-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/projects.html.erb:108: syntax error, unexpected tIDENTIFIER, expecting ')'
+..."facebook-icon-white.png" style="padding: 5px;" );@output_bu...
+...                               ^):
+  app/views/static/projects.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:40: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:50: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:52: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:52: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:53: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:55: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:57: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:58: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:60: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:63: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:64: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:67: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:69: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:70: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:71: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:73: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:75: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:76: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:78: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:80: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:81: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:82: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:83: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:84: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:85: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:90: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:100: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:102: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/projects.html.erb:105: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:106: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:107: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/static/projects.html.erb:108: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-04-05 20:59:55 -0400
+Processing by StaticController#projects as HTML
+  Rendered static/projects.html.erb within layouts/application (141.1ms)
+Completed 200 OK in 321ms (Views: 317.9ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.1ms)
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.css.map"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.6ms)
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/menu-icon-red.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/linkedin-icon-black.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/instagram-icon-black.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/work/felix-gilman.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/work/bfi.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/work/elite-gold.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/work/swig.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/work/bb.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/twitter-icon-black.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/ask-us-anything.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/work/element.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/bb-logo-white.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/twitter-icon-white.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/linkedin-icon-white.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/assets/instagram-icon-white.png" for 127.0.0.1 at 2015-04-05 20:59:56 -0400
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:23:27 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 20ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/6.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/5.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/9.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/1.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/8.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/14.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/17.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/20.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/13.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/19.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/10.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/18.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/16.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/21.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/3.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/12.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/11.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:134: syntax error, unexpected keyword_class, expecting ')'
+...e_tag "bb-logo-white.png" class="img-responsive img-centered...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:136: syntax error, unexpected keyword_class, expecting ')'
+...tag "ask-us-anything.png" class="small-padding-bottom" );@ou...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:134: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:136: syntax error, unexpected keyword_class, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.7ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:23:27 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/6.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/5.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/9.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/1.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/8.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/14.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/17.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/20.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/13.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/19.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/10.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/18.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/16.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/21.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected keyword_class, expecting ')'
+...tag "instagram-img/3.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/12.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected keyword_class, expecting ')'
+...ag "instagram-img/11.jpg" class="img-responsive" );@output_b...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:134: syntax error, unexpected keyword_class, expecting ')'
+...e_tag "bb-logo-white.png" class="img-responsive img-centered...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:136: syntax error, unexpected keyword_class, expecting ')'
+...tag "ask-us-anything.png" class="small-padding-bottom" );@ou...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:134: syntax error, unexpected keyword_class, expecting ')'
+  app/views/static/instagram.html.erb:136: syntax error, unexpected keyword_class, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:24:07 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.9ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:24:55 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:24:55 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.7ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:24:56 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (27.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.9ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:24:56 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.8ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:25:30 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.7ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:25:31 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:25:31 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:25:31 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/6.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/5.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/9.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/1.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/8.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/14.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/17.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/20.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/13.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/19.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/10.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/18.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/16.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/21.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+..."instagram-img/3.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/12.jpg", :class="img-responsive" );@output_buf...
+...                               ^
+/Users/irina/code/becoming-brand/app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+...instagram-img/11.jpg", :class="img-responsive" );@output_buf...
+...                               ^):
+  app/views/static/instagram.html.erb:62: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:65: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:68: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:74: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:77: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:80: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:86: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:89: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:92: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:98: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:101: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:104: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:110: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:113: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:116: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:122: syntax error, unexpected tSTRING_BEG, expecting ')'
+  app/views/static/instagram.html.erb:125: syntax error, unexpected tSTRING_BEG, expecting ')'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.4ms)
+
+
+Started GET "/instagram" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+Processing by StaticController#instagram as HTML
+  Rendered static/instagram.html.erb within layouts/application (64.5ms)
+Completed 200 OK in 283ms (Views: 269.1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.0ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.7ms)
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/npm.js?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/menu-icon-red.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/linkedin-icon-black.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/7.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-icon-black.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/twitter-icon-black.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/2.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/4.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/6.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/bb-logo-white.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/19.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/18.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/3.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/ask-us-anything.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/11.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/10.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/5.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/13.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/21.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/17.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/9.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/twitter-icon-white.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/linkedin-icon-white.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-icon-white.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/facebook-icon-white.png" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/14.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/16.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/20.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/12.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/8.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/assets/instagram-img/1.jpg" for 127.0.0.1 at 2015-04-05 21:25:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+Processing by StaticController#index as HTML
+  Rendered static/index.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 112ms (Views: 111.2ms)
+
+
+Started GET "/assets/butterfly.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/what-we-do.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/web-design-circle.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/who-we-are.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/responsive-design-circle.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/ux-design-circle.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/irina/.rvm/rubies/ruby-1.9.3-p547/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/irina/.rvm/gems/ruby-1.9.3-p547@global/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.2ms)
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/main.css" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/graphic-design-circle.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/branding-circle.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/mobile-design-circle.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/our-principles.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/who-we-worked-with.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/mc-logo.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/amazon-logo.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/felixgilman.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/qvc-logo.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/rlg-logo.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/swig-logo.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400
+
+
+Started GET "/assets/work-space-image.png" for 127.0.0.1 at 2015-04-05 21:25:59 -0400

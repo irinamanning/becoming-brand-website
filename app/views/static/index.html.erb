@@ -18,16 +18,16 @@
         <div class="col-sm-1">
         </div>  
         <div class="col-sm-1">
-          <a href="#" class="link-black"><img src="assets/twitter-icon-black.png" style="margin-left: 25px;"/></a>
+          <a href="#" class="link-black"><%= image_tag "twitter-icon-black.png", :style => "margin-left: 25px;" %></a>
         </div> 
         <div class="col-sm-1">
-          <a href="#" class="link-black"><img src="assets/linkedin-icon-black.png" style="margin-left: 25px;"/></a>
+          <a href="#" class="link-black"><%= image_tag "linkedin-icon-black.png", :style => "margin-left: 25px;"%></a>
         </div>
         <div class="col-sm-1">
-          <a href="#" class="link-black"><img src="assets/instagram-icon-black.png" style="margin-left: 25px;"/></a>
+          <a href="#" class="link-black"><%= image_tag "instagram-icon-black.png", :style => "margin-left: 25px;" %></a>
         </div>
         <!-- <div class="col-sm-1">
-          <a href="#" class="link-black"><img src="assets/facebook-icon-black.png" /></a>
+          <a href="#" class="link-black"><%= image_tag "facebook-icon-black.png"  %></a>
         </div> -->
         <div class="col-sm-1">
         </div>
@@ -37,10 +37,10 @@
       </div> 
     </div> 
     <div> 
-      <img src="assets/butterfly.png" class="img-responsive" style="width: 100%; max-width: 1400px; margin: auto; padding: 0px;" />
+      <%= image_tag "butterfly.png", :class => "img-responsive", :style => "width: 100%; max-width: 1400px; margin: auto; padding: 0px;"  %>
       <p class="white-font giorgio-font big-padding-top quote">"WITHOUT FUNCTIONALITY, DESIGN IS JUST ART"<br><span class="author palatino-font">S.Belsky</span></p>
       <p class="white-font palatino-font author">S.Belsky</p>
-      <a href="#" class="link-white"><div><img src="assets/menu-icon-red.png" id="menu-icon" class="big-padding-top"/></div></a>
+      <a href="#" class="link-white"><div><%= image_tag "menu-icon-red.png", :id => "menu-icon", :class => "big-padding-top" %></div></a>
       <ul class="menu-list">
         <li><a href="/" class="giorgio-font grey-font link-grey">Home</a></li>
         <li><a href="/projects" class="giorgio-font grey-font link-grey">Work</a></li>
@@ -50,7 +50,7 @@
     <div class="container-fluid" style="max-width: 1400px">
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1 text-center big-padding-bottom">
-          <img src="assets/who-we-are.png" class="img-responsive big-padding-top big-padding-bottom img-centered"/>
+          <%= image_tag "who-we-are.png", :class => "img-responsive big-padding-top big-padding-bottom img-centered" %>
           <p class="about-text big-padding-bottom text-center">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
           <div>
             <a href="#" class="red-font palatino-font link-red">Get in touch</a>
@@ -59,16 +59,16 @@
       </div>
       <div class="row ">
         <div class="col-sm-12 grey-background">
-          <img src="assets/what-we-do.png" class="img-responsive big-padding-bottom big-padding-top img-centered" />
+          <%= image_tag "what-we-do.png", :class => "img-responsive big-padding-bottom big-padding-top img-centered"  %>
           <div class="row padding-bottom" style="margin-left: 85px; margin-right: 85px;">
             <div class="col-sm-4 text-center">
               <div>
-                <img src="assets/web-design-circle.png"/>
+                <%= image_tag "web-design-circle.png" %>
                 <h3 class="red-font giorgio-font skill-name text-center">Web Design/Development</h3>
                 <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
               </div>
               <div>
-                <img src="assets/responsive-design-circle.png"/>
+                <%= image_tag "responsive-design-circle.png" %>
                 <h3 class="red-font giorgio-font skill-name text-center">Responsive Design</h3>
                 <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
               </div>
@@ -76,25 +76,25 @@
             <div class="col-sm-4 text-center">
               
               <div>
-                <img src="assets/ux-design-circle.png" style="margin: auto;" class="img-centered"/>
+                <%= image_tag "ux-design-circle.png", :style => "margin: auto;", :class => "img-centered" %>
                 <h3 class="red-font giorgio-font skill-name text-center">UX/UI</h3>
                 <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
               </div>
               <div>
-                <img src="assets/branding-circle.png"/>
+                <%= image_tag "branding-circle.png" %>
                 <h3 class="red-font giorgio-font skill-name text-center">Branding</h3>
                 <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
               </div>
             </div> 
             <div class="col-sm-4 text-center">
               <div>
-                <img src="assets/mobile-design-circle.png"/>
+                <%= image_tag "mobile-design-circle.png" %>
                 <h3 class="red-font giorgio-font skill-name text-center">Mobile Design</h3>
                 <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
               </div>
               
               <div>
-                <img src="assets/graphic-design-circle.png"/>
+                <%= image_tag "graphic-design-circle.png" %>
                 <h3 class="red-font giorgio-font skill-name text-center">Graphic Design</h3>
                 <p class="big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
             </div>  
@@ -109,9 +109,9 @@
       </div> 
       <div class="row">
         <div class="col-sm-12 text-center">
-          <img src="assets/work-space-image.png" class="img-responsive" style="width: 100%; height: 750px; max-width: 1400px; margin: auto; padding: 0px;"/>
+          <%= image_tag "work-space-image.png", :class => "img-responsive", :style => "width: 100%; height: 750px; max-width: 1400px; margin: auto; padding: 0px;" %>
           <div class="principles-section">
-            <img src="assets/our-principles.png" class="big-padding-top big-padding-bottom img-centered"/>
+            <%= image_tag "our-principles.png", :class => "big-padding-top big-padding-bottom img-centered" %>
             <div class="principles-paragraph">
               <h1 class="principles giorgio-font white-font" style="padding-top: 0px;">Your goals are our priorities.</h1>
               <p class="white-font" style="margin-left: 100px; margin-right: 100px;">A crucial part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealingbut also highly effective products that help you reach your business goals.</p>
@@ -133,25 +133,25 @@
       </div>
       <div class="row">
         <div class="col-sm-12 text-center" style="padding-left: 85px; padding-right: 85px;">
-          <img src="assets/who-we-worked-with.png" class="img-responsive big-padding-top big-padding-bottom img-centered" />
+          <%= image_tag "who-we-worked-with.png", :class => "img-responsive big-padding-top big-padding-bottom img-centered"  %>
           <div class="row">
             <div class="col-sm-2" style="padding-top: 30px;">
-              <img src="assets/amazon-logo.png"/>
+              <%= image_tag "amazon-logo.png" %>
             </div>
             <div class="col-sm-2">
-              <img src="assets/mc-logo.png"/>
+              <%= image_tag "mc-logo.png" %>
             </div> 
             <div class="col-sm-2" style="padding-top: 30px;">
-              <img src="assets/felixgilman.png"/>
+              <%= image_tag "felixgilman.png" %>
             </div> 
             <div class="col-sm-2" style="padding-top: 17px;">
-              <img src="assets/qvc-logo.png"/>
+              <%= image_tag "qvc-logo.png" %>
             </div> 
             <div class="col-sm-2" style="padding-top: 33px;">
-              <img src="assets/rlg-logo.png"/>
+              <%= image_tag "rlg-logo.png" %>
             </div> 
             <div class="col-sm-2" style="padding-top: 27px;">
-              <img src="assets/swig-logo.png"/>
+              <%= image_tag 'swig-logo.png' %>
             </div>   
           </div>  
           <p class="red-font palatino-font big-padding-top" style="max-width: 700px; margin: auto"><i>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</i></p>
@@ -161,15 +161,15 @@
       </div>
       <div class="row red-background big-padding-top">
         <div class="col-sm-12 text-center">
-          <a href="#" class="link-white"><img src="assets/bb-logo-white.png" class="img-responsive img-centered big-padding-bottom"/></a>
+          <a href="#" class="link-white"><%= image_tag "bb-logo-white.png", :class => "img-responsive img-centered big-padding-bottom" %></a>
           <h1 class="white-font tag-line palatino-font big-padding-bottom" style="line-height: 40px;"><i>We will help your business become a brand.</i></h1>
-          <img src="assets/ask-us-anything.png" class="small-padding-bottom"/>
+          <%= image_tag "ask-us-anything.png", :class => "small-padding-bottom" %>
           <a href="#" class="link-white"><p class="white-font giorgio-font" style="font-size: 30px; letter-spacing: 1px; padding-bottom: 20px; padding-top: 20px;">IRINAMANNING@GMAIL.COM</p></a>
           <div class="small-padding-bottom">
-            <a href="#" class="link-white"><img src="assets/twitter-icon-white.png" style="padding: 5px;"/></a>
-            <a href="#" class="link-white"><img src="assets/linkedin-icon-white.png" style="padding: 5px;"/></a>
-            <a href="#" class="link-white"><img src="assets/instagram-icon-white.png" style="padding: 5px;"/></a>
-            <!-- <a href="#" class="link-white"><img src="assets/facebook-icon-white.png" style="padding: 5px;"/></a> -->
+            <a href="#" class="link-white"><%= image_tag "twitter-icon-white.png", :style=>"padding: 5px;" %></a>
+            <a href="#" class="link-white"><%= image_tag "linkedin-icon-white.png", :style=>"padding: 5px;" %></a>
+            <a href="#" class="link-white"><%= image_tag "instagram-icon-white.png", :style=>"padding: 5px;" %></a>
+            <!-- <a href="#" class="link-white"><%= image_tag "facebook-icon-white.png", :style=>"padding: 5px;" %></a> -->
           </div>
           <hr>
           <p class="white-font palatino-font small-padding-bottom" style="padding-top: 40px;"><small>Copyright 2015 Irina Manning</small></p>
