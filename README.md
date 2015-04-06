@@ -1,5 +1,6 @@
 # Run Locally
-``rails s``
+1. ``rails s``
+2. go to ``localhost:3000``
 
 # Deploy
 ````

@@ -1,13 +1,36 @@
 @font-face {
   font-family: GiorgioSmallRegular;
-  src: url("assets/GiorgioS-Regular.otf") format("opentype");
+  src: url("GiorgioS-Regular.otf") format("opentype");
 }
 @font-face {
-  font-family: 'Tangerine';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Tangerine'), url('assets/GiorgioS-Regular.otf') format('opentype');
+  font-family: GiorgioSmallItalic;
+  src: url("GiorgioS-Italic.otf") format("opentype");
 }
+@font-face {
+  font-family: GiorgioMediumRegular;
+  src: url("GiorgioM-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: GiorgioMediumItalic;
+  src: url("GiorgioM-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: GiorgioLargeRegular;
+  src: url("GiorgioL-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: GiorgioLargeItalic;
+  src: url("GiorgioL-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: GiorgioExtraLargeRegular;
+  src: url("GiorgioXL-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: GiorgioExtraLargeItalic;
+  src: url("GiorgioXL-Italic.otf") format("opentype");
+}
+
 
 p.quote {
   position: absolute;
@@ -92,7 +115,7 @@ span.author {
 }
 
 .giorgio-font {
-  font-family: Giorgio, serif;
+  font-family: GiorgioSmallRegular, serif;
 }
 
 .big-padding-top {
