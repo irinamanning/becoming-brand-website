@@ -1,3 +1,14 @@
+@font-face {
+  font-family: GiorgioSmallRegular;
+  src: url("assets/GiorgioS-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Tangerine'), url('assets/GiorgioS-Regular.otf') format('opentype');
+}
+
 p.quote {
   position: absolute;
   top: 15%;
