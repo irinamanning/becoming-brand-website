@@ -32,10 +32,10 @@
 }
 
 
-p.quote {
+#quote {
   position: absolute;
-  top: 15%;
-  left: 8%;
+  top: 80px;
+  left: 100px;
   font-size: 22px;
   letter-spacing: 1px;
   text-align: right;
@@ -47,13 +47,7 @@ span.author {
   font-weight: 100;
 }
 
-#menu-icon {
-  position: fixed;
-  top: 20%;
-  right: 5%;
-  visibility: hidden;
-  z-index: 2000;
-}
+
 
 #close-icon {
   position: absolute;
@@ -62,17 +56,39 @@ span.author {
   visibility: hidden;
 }
 
-.menu-list {
+#nav-menu-list {
   position: fixed;
   top: 21%;
-  right: 3%;
+  right: 200px;
   list-style: none;
   line-height: 40px;
   text-align: right;
   font-size: 19px;
   letter-spacing: 1px;
   z-index: 1000;
+  visibility: hidden;
+  word-spacing: 40px;
+}
+
+#nav-menu-list a {
+  color: white;
+}
+
+#nav-menu-list a:hover {
+  color: #ed145b; /* bright pink */
+  text-decoration: none;
+}
+
+#nav-menu-list.visible {
   visibility: visible;
+}
+
+#menu-icon {
+  position: fixed;
+  top: 80px;
+  right: 100px;
+  visibility: visible;
+  z-index: 2000;
 }
 
 .header-container {

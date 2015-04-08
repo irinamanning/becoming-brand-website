@@ -1,0 +1,16 @@
+<script>
+  $(function() {
+    $('#menu-icon').click(function(e) {
+      //e.preventDefault();
+      $('#nav-menu-list').toggleClass('visible');
+    })
+  });
+</script>
+<div style="">
+  <%= image_tag "menu-icon-red.png", :id => "menu-icon", :class => "big-padding-top" %>
+  <p id="nav-menu-list">
+    <a href="/" class="giorgio-font grey-font link-grey">Home</a>
+    <a href="/projects" class="giorgio-font grey-font link-grey">Work</a>
+    <a href="/instagram" class="giorgio-font grey-font link-grey">Instagram</a>
+  </p>
+</div>

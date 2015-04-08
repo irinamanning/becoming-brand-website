@@ -1,15 +1,9 @@
 
 <%= render :partial => 'nav' %>
-  
-  <div>
-    <a href="#" class="link-white"><div><%= image_tag "menu-icon-red.png", :id=>"menu-icon", :class=>"big-padding-top" %></div></a>
-    <ul class="menu-list">
-      <li><a href="/" class="giorgio-font grey-font link-grey">Home</a></li>
-      <li><a href="/projects" class="giorgio-font grey-font link-grey">Work</a></li>
-      <li><a href="/instagram" class="giorgio-font grey-font link-grey">Instagram</a></li>
-    </ul>
-  </div>
 
+<%= render :partial => 'menulist' %>
+
+<div class="container-fluid" style="">
   <div class="row">
     <div class="col-xs-12 text-center" style="width: 100%; padding: 0px;">
       <%= image_tag "work/felix-gilman.png", :class=>"img-responsive portfolio-img" %>
@@ -48,17 +42,11 @@
         <%= image_tag "work/element-detail-all-cards.png", :class=>"img-responsive portfolio-img center-block" %>
         <%= image_tag "work/element-detail-flyer.png", :class=>"img-responsive portfolio-img center-block" %>
         <%= image_tag "work/element-detail-tickets.png", :class=>"img-responsive portfolio-img center-block" %>
-
-
       </div> -->
       <!-- <%= image_tag "work/unnamed-peak.png", :class=>"img-responsive portfolio-img" %> -->
       <!-- <%= image_tag "work/migm.jpg", :class=>"img-responsive portfolio-img" %> -->
-      
-      
-      
     </div> 
   </div>  
-
-  <%= render :partial => 'footer' %>
-
 </div>
+<%= render :partial => 'footer' %>
+
