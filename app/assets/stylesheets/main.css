@@ -56,40 +56,54 @@ span.author {
   visibility: hidden;
 }
 
-#nav-menu-list {
+#nav-menu-icon {
   position: fixed;
-  top: 21%;
-  right: 200px;
+  top: 80px;
+  right: 100px;
+  z-index: 1000;
+}
+
+#nav-menu-icon:hover {
+  opacity: 0.6;
+}
+
+#nav-menu {
+  width: 150px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding-top: 100px;
+  padding-right: 50px;
+  background-color: black;
+  opacity: 0.8;
+  height: 100%;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#nav-menu.visible {
+  visibility: visible;
+}
+
+#nav-menu-list {
   list-style: none;
-  line-height: 40px;
+  line-height: 100px;
   text-align: right;
   font-size: 19px;
   letter-spacing: 1px;
-  z-index: 1000;
-  visibility: hidden;
-  word-spacing: 40px;
 }
 
 #nav-menu-list a {
   color: white;
+  text-transform: uppercase;
 }
 
-#nav-menu-list a:hover {
+#nav-menu-list li a:hover {
   color: #ed145b; /* bright pink */
   text-decoration: none;
 }
 
-#nav-menu-list.visible {
-  visibility: visible;
-}
 
-#menu-icon {
-  position: fixed;
-  top: 80px;
-  right: 100px;
-  visibility: visible;
-  z-index: 2000;
-}
 
 .header-container {
   padding: 0px 85px 0px 85px;
