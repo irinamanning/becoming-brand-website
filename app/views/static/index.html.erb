@@ -4,20 +4,21 @@
 <%= render :partial => 'menulist' %>
 
 <!-- hero banner -->
-<div class="row"> 
-  <%= image_tag "butterfly.png", :class => "img-responsive", :style => "width: 100%; max-width: 1400px; margin: auto; padding: 0px;"  %>
-  <p id="quote" class="white-font giorgio-font big-padding-top">"WITHOUT FUNCTIONALITY, DESIGN IS JUST ART"<br><span class="author palatino-font">S.Belsky</span></p>
+<div class="row" style="padding: 0px;"> 
+  <%= image_tag "irinamanning-hero-image.png", :class => "img-responsive", :style => "width: 100%; margin: auto; padding: 0px;"  %>
+  <p id="quote" class="big-padding-top">"WITHOUT FUNCTIONALITY, DESIGN IS JUST ART"<br><span class="author" style="font-family: Bodoni;">S.Belsky</span></p>
   <p class="white-font palatino-font author">S.Belsky</p>
+  <%= image_tag "irinamanning-logo-red.png", :class => "logo img-responsive img-centered" %>
 </div>  
 <!-- end hero banner -->
 
 <!-- about -->
-<div class="row">
+<div class="row  grey-background" >
   <div class="col-sm-10 col-sm-offset-1 text-center big-padding-bottom">
-    <%= image_tag "who-we-are.png", :class => "img-responsive big-padding-top big-padding-bottom img-centered" %>
+    <p class="page-title big-padding-top big-padding-bottom text-center">WHO WE ARE</p>
     <p class="about-text big-padding-bottom text-center">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
     <div>
-      <a href="#" class="red-font palatino-font link-red">Get in touch</a>
+      <a href="#" class="get-in-touch-link">Get in touch</a>
     </div>
   </div>
 </div>
@@ -25,17 +26,17 @@
 
 <!-- what we do -->
 <div class="row ">
-  <div class="col-sm-12 grey-background">
-    <%= image_tag "what-we-do.png", :class => "img-responsive big-padding-bottom big-padding-top img-centered"  %>
+  <div class="col-sm-12">
+    <p class="page-title big-padding-top big-padding-bottom text-center">WHAT WE DO</p>
     <div class="row padding-bottom" style="margin-left: 85px; margin-right: 85px;">
       <div class="col-sm-4 text-center">
         <div>
-          <%= image_tag "web-design-circle.png" %>
-          <h3 class="red-font giorgio-font skill-name text-center">Web Design/Development</h3>
+          <%= image_tag "web-design-circle-bw.png" %>
+          <h3 class="red-font skill-name text-center">Web Design/Development</h3>
           <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
         </div>
         <div>
-          <%= image_tag "responsive-design-circle.png" %>
+          <%= image_tag "responsive-design-circle-bw.png" %>
           <h3 class="red-font giorgio-font skill-name text-center">Responsive Design</h3>
           <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
         </div>
@@ -43,32 +44,32 @@
       <div class="col-sm-4 text-center">
         
         <div>
-          <%= image_tag "ux-design-circle.png", :style => "margin: auto;", :class => "img-centered" %>
+          <%= image_tag "ux-design-circle-bw.png", :style => "margin: auto;", :class => "img-centered" %>
           <h3 class="red-font giorgio-font skill-name text-center">UX/UI</h3>
           <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
         </div>
         <div>
-          <%= image_tag "branding-circle.png" %>
+          <%= image_tag "branding-circle-bw.png" %>
           <h3 class="red-font giorgio-font skill-name text-center">Branding</h3>
           <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
         </div>
       </div> 
       <div class="col-sm-4 text-center">
         <div>
-          <%= image_tag "mobile-design-circle.png" %>
+          <%= image_tag "mobile-design-circle-bw.png" %>
           <h3 class="red-font giorgio-font skill-name text-center">Mobile Design</h3>
           <p class="text-center big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
         </div>
         
         <div>
-          <%= image_tag "graphic-design-circle.png" %>
+          <%= image_tag "graphic-design-circle-bw.png" %>
           <h3 class="red-font giorgio-font skill-name text-center">Graphic Design</h3>
           <p class="big-padding-bottom">A crucial part of our design process includes extensive research and analysis </p>
       </div>  
     </div>
     <div class="row">
       <div class="col-sm-12 text-center big-padding-bottom">
-        <a href="#" class="red-font palatino-font link-red">Get in touch</a>
+        <a href="#" class="get-in-touch-link">Get in touch</a>
       </div>  
     </div>  
     
@@ -79,25 +80,25 @@
 <!-- principles -->
 <div class="row">
   <div class="col-sm-12 text-center">
-    <%= image_tag "work-space-image.png", :class => "img-responsive", :style => "width: 100%; height: 750px; max-width: 1400px; margin: auto; padding: 0px;" %>
+    <%= image_tag "work-space-image.png", :class => "img-responsive", :style => "width: 100%; height: 750px; margin: auto; padding: 0px;" %>
     <div class="principles-section">
-      <%= image_tag "our-principles.png", :class => "big-padding-top big-padding-bottom img-centered" %>
+      <p class="page-title big-padding-top big-padding-bottom text-center">OUR PRINCIPLES</p>
       <div class="principles-paragraph">
-        <h1 class="principles giorgio-font white-font" style="padding-top: 0px;">Your goals are our priorities.</h1>
-        <p class="white-font" style="margin-left: 100px; margin-right: 100px;">A crucial part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealingbut also highly effective products that help you reach your business goals.</p>
+        <h1 class="principles white-font" style="padding-top: 0px;">Your goals are our priorities.</h1>
+        <p class="white-font" style="margin-left: 200px; margin-right: 200px;">A crucial part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealingbut also highly effective products that help you reach your business goals.</p>
       </div>
 
       <div class="principles-paragraph">
-        <h1 class="principles giorgio-font white-font small-padding-top">Our process is transparent.</h1>
-        <p class="white-font" style="margin-left: 100px; margin-right: 100px;">A big part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealing but also highly effective products that help you reach your business goals.</p>
+        <h1 class="principles white-font small-padding-top">Our process is transparent.</h1>
+        <p class="white-font" style="margin-left: 200px; margin-right: 200px;">A big part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealing but also highly effective products that help you reach your business goals.</p>
       </div>
       
       <div class="principles-paragraph">
-        <h1 class="principles giorgio-font white-font small-padding-top">The smallest details matter.</h1>
-        <p class="white-font" style="margin-left: 100px; margin-right: 100px;">A big part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealing but also highly effective products that help you reach your business goals.</p>
+        <h1 class="principles white-font small-padding-top">The smallest details matter.</h1>
+        <p class="white-font" style="margin-left: 200px; margin-right: 200px;">A big part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealing but also highly effective products that help you reach your business goals.</p>
       </div>
 
-      <div class="big-padding-top"><a href="#" class="red-font palatino-font big-padding-bottom big-padding-top link-red" style="padding-bottom: 40px">Get in touch</a></div>
+      <div class="big-padding-top"><a href="#" class="get-in-touch-link" style="padding-bottom: 40px">Get in touch</a></div>
     </div>
   </div>
 </div>
@@ -106,7 +107,7 @@
 <!-- logos -->
 <div class="row">
   <div class="col-sm-12 text-center" style="padding-left: 85px; padding-right: 85px;">
-    <%= image_tag "who-we-worked-with.png", :class => "img-responsive big-padding-top big-padding-bottom img-centered"  %>
+    <p class="page-title big-padding-top big-padding-bottom text-center">WHO WE WORKED WITH</p>
     <div class="row">
       <div class="col-sm-2" style="padding-top: 30px;">
         <%= image_tag "amazon-logo.png" %>
@@ -129,8 +130,10 @@
     </div>  
     <p class="red-font palatino-font big-padding-top" style="max-width: 700px; margin: auto"><i>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</i></p>
     <p class="red-font palatino-font" style="padding-top: 20px;"><b>N.Manning, Swig, CTO</b></p>
-    <div class="big-padding-top big-padding-bottom"><a href="#" class="red-font palatino-font big-padding-top big-padding-bottom link-red">Get in touch</a></div>
+    <div class="big-padding-top big-padding-bottom"><a href="#" class="get-in-touch-link">Get in touch</a></div>
   </div>
 </div>
+   
+
 <!-- end logos -->
 <%= render :partial => 'footer' %>

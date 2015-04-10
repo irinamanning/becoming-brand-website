@@ -32,13 +32,37 @@
 }
 
 
+.header-text {
+  font-size: 20px;
+  font-family: Bodoni;
+  color: black;
+  font-style: italic;
+}
+
+a p.header-text:hover {
+   text-decoration: none;
+   opacity: 0.6;
+}
+
+.logo {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  max-width: 150px;
+
+}
+
 #quote {
   position: absolute;
   top: 80px;
   left: 100px;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 1px;
   text-align: right;
+  font-family: Bodoni;
+  font-weight: 100;
+  color: silver;
+  font-style: italic;
 }
 
 span.author {
@@ -47,7 +71,24 @@ span.author {
   font-weight: 100;
 }
 
+.page-title {
+  font-family: Bodoni;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ed145b;
+}
 
+.get-in-touch-link {
+  font-family: Bodoni;
+  font-size: 16px;
+  color: #ed145b;
+  font-weight: 500;
+}
+
+.get-in-touch-link:hover {
+  color: #ed145b; 
+}
 
 #close-icon {
   position: absolute;
@@ -129,6 +170,7 @@ span.author {
 
 .white-font {
   color: #ffffff;
+  font-weight: 100;
 }
 
 .grey-font {
@@ -142,10 +184,6 @@ span.author {
 
 .palatino-font {
   font-family: Palatino, serif;
-}
-
-.giorgio-font {
-  font-family: GiorgioSmallRegular, serif;
 }
 
 .big-padding-top {
@@ -200,6 +238,8 @@ p {
   color: #333333;
   line-height: 24px;
   margin: 0px;
+  font-family: Avenir;
+  font-weight: 200;
 }
 
 h3 {
@@ -223,19 +263,18 @@ a {
 
 .skill-name {
   font-size: 22px;
-  letter-spacing: 1px;
-  padding-top: 15px;
+  padding-top: 25px;
   padding-bottom: 10px;
+  font-family: Bodoni;
+  font-style: italic;
 
 }
 
 .principles {
-  font-size: 60px;
-  padding-bottom: 5px;
-}
-
-.principles:hover {
-  color: #ed145b;
+  font-family: Bodoni;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 100;
 }
 
 /*.principles-section {
@@ -253,6 +292,9 @@ a {
 
 .tag-line {
   font-weight: 100;
+  font-family: Bodoni;
+  font-style: italic;
+  font-size: 50px;
 }
 
 hr {
@@ -296,6 +338,11 @@ a.link-black p:hover {
 div a.link-black:hover {
   color: white;
   text-decoration: none;
+}
+
+.copyright {
+  font-size: 12px;
+  font-family: Avenir;
 }
 
 /*.project-details {
