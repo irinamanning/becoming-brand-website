@@ -34,7 +34,7 @@
 
 .header-text {
   font-size: 20px;
-  font-family: Bodoni;
+  font-family: Plantin;
   color: black;
   font-style: italic;
 }
@@ -46,7 +46,7 @@ a p.header-text:hover {
 
 .logo {
   position: absolute;
-  top: 40%;
+  top: 37%;
   left: 45%;
   max-width: 150px;
 
@@ -59,7 +59,7 @@ a p.header-text:hover {
   font-size: 20px;
   letter-spacing: 1px;
   text-align: right;
-  font-family: Bodoni;
+  font-family: Plantin;
   font-weight: 100;
   color: silver;
   font-style: italic;
@@ -71,8 +71,14 @@ span.author {
   font-weight: 100;
 }
 
+.tagline {
+  position: absolute;
+  top: 62%;
+  left: 35%;
+}
+
 .page-title {
-  font-family: Bodoni;
+  font-family: Plantin;
   font-style: italic;
   font-weight: 400;
   font-size: 32px;
@@ -80,10 +86,10 @@ span.author {
 }
 
 .get-in-touch-link {
-  font-family: Bodoni;
+  font-family: Plantin;
   font-size: 16px;
   color: #ed145b;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .get-in-touch-link:hover {
@@ -182,10 +188,6 @@ span.author {
   opacity: 75%;
 }
 
-.palatino-font {
-  font-family: Palatino, serif;
-}
-
 .big-padding-top {
   padding-top: 60px;
 }
@@ -233,7 +235,6 @@ h1 {
 }
 
 p {
-  font-family: Palatino, serif;
   font-size: 16px;
   color: #333333;
   line-height: 24px;
@@ -265,15 +266,15 @@ a {
   font-size: 22px;
   padding-top: 25px;
   padding-bottom: 10px;
-  font-family: Bodoni;
+  font-family: Plantin;
   font-style: italic;
 
 }
 
 .principles {
-  font-family: Bodoni;
+  font-family: Plantin;
   font-style: italic;
-  font-size: 50px;
+  font-size: 36px;
   font-weight: 100;
 }
 
@@ -292,7 +293,7 @@ a {
 
 .tag-line {
   font-weight: 100;
-  font-family: Bodoni;
+  font-family: Plantin;
   font-style: italic;
   font-size: 50px;
 }
@@ -338,6 +339,19 @@ a.link-black p:hover {
 div a.link-black:hover {
   color: white;
   text-decoration: none;
+}
+
+.client-name {
+  font-family: Plantin;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.testimonial {
+  font-family: Plantin;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .copyright {
