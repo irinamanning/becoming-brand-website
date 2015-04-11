@@ -1,24 +1,26 @@
-<%= render :partial => 'nav' %>
+<div class="container-fluid">
   
-<%= render :partial => 'menulist' %>
+  <%= render :partial => 'nav' %>
+    
+  <%= render :partial => 'menulist' %>
 
-<div style="height:90px">&nbsp;</div>
+  <div style="height:90px">&nbsp;</div>
 
-<% groups = [[7, 2, 4], [6, 5, 9], [1, 8, 14], [17, 20, 13], [19, 10, 18], [16, 21, 3], [12, 11]] %>
-<% groups.each do |group| %>
-  <div class="row" style="padding: 0px 85px 30px 85px;">
-    <% group.each do |file| %>
-      <div class="col-sm-4">
-        <%= image_tag "instagram-img/#{file}.jpg", :class=>"img-responsive" %>
-      </div>
-    <% end %>
-  </div> 
-<% end %>
+  <% groups = [[7, 2, 4], [6, 5, 9], [1, 8, 14], [17, 20, 13], [19, 10, 18], [16, 21, 3], [12, 11]] %>
+  <% groups.each do |group| %>
+    <div class="row" style="padding: 0px 85px 30px 85px;">
+      <% group.each do |file| %>
+        <div class="col-sm-4">
+          <%= image_tag "instagram-img/#{file}.jpg", :class=>"img-responsive" %>
+        </div>
+      <% end %>
+    </div> 
+  <% end %>
 
-<div style="height:90px">&nbsp;</div>
+  <div style="height:90px">&nbsp;</div>
 
-<%= render :partial => 'footer' %>
-  
+  <%= render :partial => 'footer' %>
+    
+  </div>
+
 </div>
-
-
