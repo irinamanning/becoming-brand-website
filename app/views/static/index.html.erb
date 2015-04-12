@@ -17,11 +17,10 @@
 <script>
   $(function() {
     $('#value-props').find('img').hover(function() {
-      newSrc = $(this).parent().find('img.highlight').attr('src');
-
+      newSrc = $($(this).parents('div')[0]).find('img.highlight').attr('src');
       $(this).attr('src', newSrc);
     }, function(){
-      newSrc = $(this).parent().find('img.regular').attr('src');
+      newSrc = $($(this).parents('div')[0]).find('img.regular').attr('src');
       $(this).attr('src', newSrc);
     });
   });
@@ -39,10 +38,10 @@
     <%#== unused snippets: Custom logo and theme design is our specialty. %>
     <% props.each do |prop| %>
       <div class="col-sm-4 text-center">
-        <%= image_tag prop[0] %>
+        <%= link_to 'projects' do %><%= image_tag prop[0] %><% end %>
         <%= image_tag prop[0], :class => "regular", :style => "display:none;" %>
         <%= image_tag prop[1], :class => "highlight", :style => "display:none;" %>
-        <h3 class="red-font skill-name text-center"><%= prop[2] %></h3>
+        <%= link_to 'projects' do %><h3 class="red-font skill-name text-center"><%= prop[2] %></h3><% end %>
         <p class="text-center big-padding-bottom"><%= prop[3] %></p>
       </div>
     <% end %>
