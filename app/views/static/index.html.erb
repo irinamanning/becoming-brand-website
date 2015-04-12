@@ -14,22 +14,36 @@
 <!-- end hero banner -->
 
 <!-- what we do -->
-<div class="container-fluid im-content-section">
+<script>
+  $(function() {
+    $('#value-props').find('img').hover(function() {
+      newSrc = $(this).parent().find('img.highlight').attr('src');
+
+      $(this).attr('src', newSrc);
+    }, function(){
+      newSrc = $(this).parent().find('img.regular').attr('src');
+      $(this).attr('src', newSrc);
+    });
+  });
+</script>
+<div id="value-props" class="container-fluid im-content-section">
   <div class="row"> 
     <h1>What We Do</h1>
   </div>
   <div class="row">
     <% props = [
-      ["branding-circle-bw.png", "UX Design", "Modern, clean and balanced, our design makes a statement without distractions."],
-      ["responsive-design-circle-bw.png", "Web Development", "We implement responsive, custom websites and templates, built with love."],
-      ["graphic-design-circle-bw.png", "Branding", "Improve your web presence and bring in more site engagement with better branding."]
+      ["branding-circle-bw.png", "branding-circle.png", "UX Design", "Modern, clean and balanced, our design makes a statement without distractions."],
+      ["responsive-design-circle-bw.png", "responsive-design-circle.png", "Web Development", "We implement responsive, custom websites and templates, built with love."],
+      ["graphic-design-circle-bw.png", "graphic-design-circle.png", "Branding", "Improve your web presence and bring in more site engagement with better branding."]
     ] %>
     <%#== unused snippets: Custom logo and theme design is our specialty. %>
     <% props.each do |prop| %>
       <div class="col-sm-4 text-center">
         <%= image_tag prop[0] %>
-        <h3 class="red-font skill-name text-center"><%= prop[1] %></h3>
-        <p class="text-center big-padding-bottom"><%= prop[2] %></p>
+        <%= image_tag prop[0], :class => "regular", :style => "display:none;" %>
+        <%= image_tag prop[1], :class => "highlight", :style => "display:none;" %>
+        <h3 class="red-font skill-name text-center"><%= prop[2] %></h3>
+        <p class="text-center big-padding-bottom"><%= prop[3] %></p>
       </div>
     <% end %>
   </div>

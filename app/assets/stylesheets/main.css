@@ -37,6 +37,8 @@
 .navbar { /* boostrap override */
   background-color: #ed145b;  /* hot pink */
   opacity: 1;
+  max-height: 20px;
+  overflow: hidden;
 }
 .navbar-default { /* boostrap override */
   border-width: 0px;
@@ -45,8 +47,15 @@
   font-size: 22px;
   color: #222;
   font-family: Plantin;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   margin: 15px 0px 10px 0px;
+}
+.navbar a {
+  color: #222;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: white;
 }
 .navbar img { 
   margin: 12px 0px;
@@ -68,6 +77,7 @@
 /* end site specific */
 
 /* index.html specific */
+
 #hero-banner {
   background-color: #222;
   background-image: url('/assets/irinamanning-hero-image.png');
@@ -86,9 +96,9 @@
   width: 100%;
   text-align: center;
   font-size: 35px;
-  font-family: GiorgioMediumItalic;
-  color: #ed145b; /* hot pink */
-  letter-spacing: 1px;
+  font-family: Plantin;
+  color: #ed145b;
+  font-style: italic;
 }
 
 #principles {
@@ -132,6 +142,7 @@
 /* end index.html specific */
 
 /* projects.html specific */
+
 .project-summary-row {
   background-color: #222;
   background-repeat: no-repeat;
@@ -161,6 +172,7 @@
 /* end projects.html specific */
 
 /* sitewide nav menu */
+
 #nav-menu-icon {
   position: fixed;
   top: 30px;
@@ -225,9 +237,20 @@
   opacity: 0.6; 
 }
 
-
-
 /* end sitewide nav menu */
+
+/* site footer */
+
+#site-footer {
+  background-color: #ed145b;
+  padding: 60px 0px 60px 0px;
+}
+#site-footer p {
+  font-size: 15px;
+  color: white;
+}
+
+/* end site footer */
 
 .header-font {
   font-size: 25px;
