@@ -1,28 +1,34 @@
 <script>
+  function toggleMenuPanel(visible) {
+    // determine target position
+    var targetPos = (visible == true ? "0px" : "-300px");
+
+    // animate in the menu to target position
+    $('#nav-menu').animate({ right: targetPos }, 250, 'swing', function() {
+      $('#nav-menu-icon').toggle(!visible);
+    });
+  }
+ 
   $(function() {
+  
+    
+
+    // close menu panel event
+    $('#nav-menu-close').click(function(e) {
+      toggleMenuPanel(false);
+    });
+
+    // open menu panel event
     $('#nav-menu-icon').click(function(e) {
-
-      // fade out menu icon
-      $('#nav-menu-icon').fadeOut(200);
-
-      // move menu off screen
-      menuWidth = $('#nav-menu').css('width');
-      startPos = '-' + menuWidth;
-      endPos = '0px';
-      
-      $('#nav-menu').css({ 'right': startPos });
-      $('#nav-menu').toggleClass('visible'); // make visible
-      $('#nav-menu').animate({ right: endPos }, 250, 'swing', function() {
-        // TODO fade in a close button
-      });
+      toggleMenuPanel(true);  
     });
   });
 </script>
 
 <%= image_tag "menu-icon-red.png", :id => "nav-menu-icon", :class => "big-padding-top" %>
 
-<div id="nav-menu">  
-
+<div id="nav-menu" style="right:-300px">  
+  <%= image_tag "menu-close.png", :id => "nav-menu-close" %>
   <ul id="nav-menu-list">
     <li><a href="/" class="giorgio-font grey-font link-grey">Home</a></li>
     <li><a href="/projects" class="giorgio-font grey-font link-grey">Work</a></li>
