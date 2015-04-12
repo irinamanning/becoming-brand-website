@@ -36,7 +36,7 @@
 
 .navbar { /* boostrap override */
   background-color: #ed145b;  /* hot pink */
-  opacity: 0.65;
+  opacity: 1;
 }
 .navbar-default { /* boostrap override */
   border-width: 0px;
@@ -44,8 +44,8 @@
 .navbar p { 
   font-size: 22px;
   color: #222;
-  font-family: Helvetica; /* light, non-distracting clean font */
-  text-transform: uppercase;
+  font-family: Plantin;
+  /*text-transform: uppercase;*/
   margin: 15px 0px 10px 0px;
 }
 .navbar img { 
@@ -53,7 +53,7 @@
   width: 25px;
 }
 .im-content-section {
-  padding: 0px 30px;
+  padding: 50px 30px 80px 30px;
 }
 .im-content-section h1 {
   width: 100%;
@@ -91,6 +91,43 @@
   letter-spacing: 1px;
 }
 
+#principles {
+  background-color: #222;
+  background-image: url('/assets/work-space-image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-size: 100%;*/ /* can't do this since it causes background solid color to appear if resized < 1000px
+  height: 500px; /* if this is too high, borders will appear */
+  
+}
+#principles h1 {
+
+}
+#principles h2 {
+  width: 100%;
+  text-align: center;
+  font-family: Plantin;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 100;
+  color: white;
+  margin: 20px 0px 10px 0px;
+}
+#principles p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px 0px 30px 0px;
+  font-family: Avenir;
+  font-weight: 200;
+  color: white;
+  padding: 0px 50px;
+}
+
+#clients {
+}
+#clients img {
+  margin: 20px 0px;
+}
 
 /* end index.html specific */
 

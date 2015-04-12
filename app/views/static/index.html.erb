@@ -14,12 +14,12 @@
 <!-- what we do -->
 <div class="container-fluid im-content-section">
   <div class="row"> 
-    <h1 class="banner-title">Scope</h1>
+    <h1>What We Do</h1>
   </div>
   <div class="row">
     <% props = [
       ["branding-circle-bw.png", "UX Design", "Modern, clean and balanced, our design makes a statement without distractions."],
-      ["responsive-design-circle-bw.png", "Web Development", "We implement responsive, custom websites and templates, built with love in New York."],
+      ["responsive-design-circle-bw.png", "Web Development", "We implement responsive, custom websites and templates, built with love."],
       ["graphic-design-circle-bw.png", "Branding", "Improve your web presence and bring in more site engagement with better branding."]
     ] %>
     <%#== unused snippets: Custom logo and theme design is our specialty. %>
@@ -34,73 +34,58 @@
 </div>
 <!-- end what we do -->
 
-<!-- "branding-circle-bw.png" %>
-"responsive-design-circle-bw.png" %>
- "ux-design-circle-bw.png", :style => "margin: auto;", :class => "img-centered" %>
- "web-design-circle-bw.png" %>
- "mobile-design-circle-bw.png" %>
- "graphic-design-circle-bw.png" %>
-%>
--->
-
 <!-- principles -->
-<div class="row">
-  <div class="col-sm-12 text-center">
-    <%= image_tag "work-space-image.png", :class => "img-responsive", :style => "width: 100%; height: 750px; margin: auto; padding: 0px;" %>
-    <div class="principles-section">
-      <p class="page-title big-padding-top big-padding-bottom text-center">OUR PRINCIPLES</p>
-      <div class="principles-paragraph">
-        <h1 class="principles white-font" style="padding-top: 0px;"></h1>
-        <p class="white-font" style="margin-left: 200px; margin-right: 200px;">A crucial part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealingbut also highly effective products that help you reach your business goals.</p>
-      </div>
-
-      <div class="principles-paragraph">
-        <h1 class="principles white-font small-padding-top">Our process is transparent.</h1>
-        <p class="white-font" style="margin-left: 200px; margin-right: 200px;">A big part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealing but also highly effective products that help you reach your business goals.</p>
-      </div>
-      
-      <div class="principles-paragraph">
-        <h1 class="principles white-font small-padding-top">The smallest details matter.</h1>
-        <p class="white-font" style="margin-left: 200px; margin-right: 200px;">A big part of our design process includes extensive research and analysis of your company’s history and character. We design not only visually appealing but also highly effective products that help you reach your business goals.</p>
-      </div>
-
-      <div class="big-padding-top"><a href="#" class="get-in-touch-link" style="padding-bottom: 40px">Get in touch</a></div>
+<div id="principles" class="container-fluid im-content-section">
+  <div class="row"> 
+    <div class="col-sm-12 text-center">
+      <h1>Our Principles</h1>
     </div>
   </div>
-  <!-- end principles -->
-
-  <!-- logos -->
-  <div class="row">
-    <div class="col-sm-12 text-center" style="padding-left: 200px; padding-right: 200px;">
-      <p class="page-title big-padding-top big-padding-bottom text-center">OUR CLIENTS</p>
-      <div class="row">
-        <div class="col-sm-2" style="padding-top: 30px;">
-          <%= image_tag "amazon-logo.png" %>
-        </div>
-        <div class="col-sm-2">
-          <%= image_tag "mc-logo.png" %>
-        </div> 
-        <div class="col-sm-2" style="padding-top: 30px;">
-          <%= image_tag "felixgilman.png" %>
-        </div> 
-        <div class="col-sm-2" style="padding-top: 17px;">
-          <%= image_tag "qvc-logo.png" %>
-        </div> 
-        <div class="col-sm-2" style="padding-top: 33px;">
-          <%= image_tag "rlg-logo.png" %>
-        </div> 
-        <div class="col-sm-2" style="padding-top: 27px;">
-          <%= image_tag 'swig-logo.png' %>
-        </div>   
-      </div>  
-      <p class="red-font big-padding-top testimonial" style="max-width: 800px; margin: auto"><i>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</i></p>
-      <p class="red-font client-name" style="padding-top: 20px;"><b>N.Manning, CTO at Swig</b></p>
-      <div class="big-padding-top big-padding-bottom"><a href="#" class="get-in-touch-link">Get in touch</a></div>
+  <div class="row"> 
+    <div class="col-sm-12 text-center">
+      <h2>Built with Love</h2>
+      <p>True passion for design, attention to detail, and writing quality code is what I bring into every project. From the first client meeting to finally deploying a website, I approach every step of a project with care, pragmatism and attention to detail. Nothing is sub-contracted.</p>
     </div>
   </div>
-     
-
-  <!-- end logos -->
-  <%= render :partial => 'footer' %>
-
+  <div class="row"> 
+    <div class="col-sm-12 text-center">
+      <h2>Listening Matters</h2>
+      <p>We work carefully to listen very carefully to clients' requests and carefully consider all opinions. If something is not realistic or there may be a better way of approaching a problem, clear, pragmatic choices are offered.</p>
+    </div>
+  </div>
+  <div class="row"> 
+    <div class="col-sm-12 text-center">
+      <h2>A Pleasureable Experience</h2>
+      <p>Planning, designing and delivering a website that meets every clients' unique goals should be a painless, exciting and rewarding experience, not an endless negotiation.</p>
+    </div>
+  </div>
 </div>
+<!-- end principles -->
+
+<!-- clients -->
+<div id="clients" class="container-fluid im-content-section">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1>Our Clients</h1>
+    </div>
+  </div>
+  <%#= TODO may want to link these to respective sites? %>
+  <% logos = %w(qvc-logo.png rlg-logo.png felixgilman.png mc-logo.png swig-logo.png) %>
+  <% logos.each do |logo| %>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <%= image_tag logo %>
+      </div> 
+    </div> 
+  <% end %>
+</div>
+
+<!--   </div>  
+    <p class="red-font big-padding-top testimonial" style="max-width: 800px; margin: auto"><i>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</i></p>
+    <p class="red-font client-name" style="padding-top: 20px;"><b>N.Manning, CTO at Swig</b></p>
+    <div class="big-padding-top big-padding-bottom"><a href="#" class="get-in-touch-link">Get in touch</a></div>
+  </div>
+</div> -->
+<!-- end clients -->
+
+<%= render :partial => 'footer' %>
