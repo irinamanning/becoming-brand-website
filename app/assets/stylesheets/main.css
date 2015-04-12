@@ -131,6 +131,35 @@
 
 /* end index.html specific */
 
+/* projects.html specific */
+.project-summary-row {
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 375px;
+}
+.project-summary-row .project-info-panel {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 300px;
+  height: 200px;
+  background-color: gray;
+}
+.project-summary-row .project-info-panel h1 {
+  font-size: 20px;
+  color: white;
+}
+.project-summary-row .project-info-panel p {
+  font-size: 15px;
+  color: white;
+}
+.project-detail-row {
+  
+}
+
+/* end projects.html specific */
+
 .header-font {
   font-size: 25px;
   font-family: Plantin;
@@ -203,8 +232,8 @@ span.author {
 
 #nav-menu-icon {
   position: fixed;
-  top: 80px;
-  right: 100px;
+  top: 30px;
+  right: 40px;
   z-index: 1000;
 }
 

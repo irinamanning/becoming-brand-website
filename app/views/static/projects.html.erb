@@ -1,53 +1,47 @@
-<div class="container-fluid">
+<%= render :partial => 'nav' %>
 
-  <%= render :partial => 'nav' %>
+<%= render :partial => 'menulist' %>
 
-  <%= render :partial => 'menulist' %>
+<!-- project list -->
+<script>
+  $(function() {
+    $('.project-detail-row').hide();
 
-  <div class="row">
-    <div class="col-xs-12 text-center">
-      <%= image_tag "work/felix-gilman.png", :class=>"img-responsive portfolio-img" %>
-      <!-- <div id="felix-details" class="project-details">
-        <%= image_tag "work/felix-detail-home.png", :class=>"img-responsive center-block", :style=>"max-width: 800px;" %>
-        <%= image_tag "work/felix-detail-books.png", :class=>"img-responsive center-block", :style=>"max-width: 800px;"  %>
-      </div> -->
-      <%= image_tag "work/elite-gold.png", :class=>"img-responsive portfolio-img" %>
-     <!--  <div id="elite-gold-details" class="project-details">
-        <%= image_tag "work/elite-gold-detail-home.png", :class=>"img-responsive center-block" %>
-        <%= image_tag "work/elite-gold-detail-ipad-tilted.jpg", :class=>"img-responsive center-block" %>
-      </div> -->
-      <%= image_tag "work/bfi.png", :class=>"img-responsive portfolio-img" %>
-      <!-- <div id="bfi-details" class="project-details">
-        <%= image_tag "work/bfi-detail-full.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/bfi-detail-full-cover.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/bfi-detail-cover.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/bfi-detail-text.png", :class=>"img-responsive portfolio-img center-block" %>
-      </div> -->
-      <%= image_tag "work/swig.png", :class=>"img-responsive portfolio-img" %>
-      <!-- <div id="swig-details" class="project-details">
-        <%= image_tag "work/swig-detail-girl.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/swig-detail-list.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/swig-detail-profile.png", :class=>"img-responsive portfolio-img center-block" %>
-      </div> -->
-      <%= image_tag "work/bb.png", :class=>"img-responsive portfolio-img" %>
-      <!-- <div id="bb-details" class="project-details">
-        <%= image_tag "work/bb-detail-about.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/bb-detail-ipad.png", :class=>"img-responsive portfolio-img center-block" %>
-      </div> -->
-      <%= image_tag "work/element.png", :class=>"img-responsive portfolio-img" %>
-      <!-- <div id="element-details" class="project-details">
-        <%= image_tag "work/element-detail-mobile.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/element-detail-blue-poster.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/element-detail-two-posters.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/element-detail-all-cards.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/element-detail-flyer.png", :class=>"img-responsive portfolio-img center-block" %>
-        <%= image_tag "work/element-detail-tickets.png", :class=>"img-responsive portfolio-img center-block" %>
-      </div> -->
-      <!-- <%= image_tag "work/unnamed-peak.png", :class=>"img-responsive portfolio-img" %> -->
-      <!-- <%= image_tag "work/migm.jpg", :class=>"img-responsive portfolio-img" %> -->
-    </div> 
-  </div>  
+    $('.project-more-info-link').click(function(e) {
+      e.preventDefault();
+      $(this).parents('.project-row').children('.project-detail-row').toggle('blind');
+    });
+  });
+</script>
+<% projects = [
+    ["work/felix-gilman.png", "Felix Gilman, Author", "gilman"], 
+    ["work/elite-gold.png", "Elite Gold", "elite"], 
+    ["work/bfi.png", "BFI", ""], 
+    ["work/swig.png", "Swig", ""], 
+    ["work/bb.png", "BB", ""], 
+    ["work/element.png", "Element", ""]
+  ] %>
+<div style="height:50px">&nbsp;</div>
+<% projects.each do |project| %>
+  <div class="project-row">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="project-summary-row" style="background-image: url('/assets/<%= project[0] %>');">
+          <div class="project-info-panel">
+            <h1><%= project[1] %></h1>
+            <p><a href="#" class="project-more-info-link">More Info</a></p>
+          </div>
+        </div>
+        <%#= image_tag project[0], :class=>"img-responsive portfolio-img" %>
+      </div>
+    </div>
+    <div class="row project-detail-row">
+      <div class="col-xs-12">
+        <%= render project[2] unless project[2].empty? %>
+      </div>
+    </div>
+  </div>
+<% end %>
+<!-- end project list -->
 
-  <%= render :partial => 'footer' %>
-
-</div>
+<%= render :partial => 'footer' %>
