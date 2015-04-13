@@ -5,7 +5,7 @@
 <!-- project list -->
 <script>
   $(function() {
-    $('.project-detail-row').show();
+    
 
     $('.project-more-info-link').click(function(e) {
       e.preventDefault();
@@ -14,11 +14,11 @@
   });
 </script>
 <% projects = [
-    ["work/felix-gilman.png", "Felix Gilman, Author", 
-      { brief: "Brief...",
+    ["work/felix-gilman.png", "Felix Gilman", 
+      { brief: "Felix John Gilman is a writer of fantasy and weird fiction. His 2007 novel Thunderer was nominated for the 2009 Locus Award for Best First Novel, and earned him a nomination for the John W. Campbell Award for Best New Writer in both 2009 and 2010.",
         sections: [
-          { title: "Title 1", commentary: "stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff ", images: ["work/felix-detail-home.png"] },
-          { title: "Title 2", commentary: "stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff ", images: ["work/felix-detail-books.png"] }
+          { title: "Website Design", commentary: "Felix asked for a redesign of his old website. I came up a new design, taking his personality and writing style and incorporated it into the overall style.", images: ["work/felix-detail-home.png"] },
+          { title: "", commentary: "", images: ["work/felix-detail-books.png"] }
         ]
       }
     ],
@@ -30,21 +30,24 @@
   ] %>
 <div style="height:50px">&nbsp;</div>
 <% projects.each do |project| %>
-  <div class="project-row">
+  <div class="container-fluid project-row">
     <div class="row">
-      <div class="col-xs-12">
-        <div class="project-summary-row" style="background-image: url('<%= image_path project[0] %>');">
-          <div class="project-info-panel">
-            <h1><%= project[1] %></h1>
-            <p><a href="#" class="project-more-info-link">More Info</a></p>
-          </div>
+      <div class="col-xs-12 project-summary-row" style="background-image: url('<%= image_path project[0] %>');">
+        <div class="project-info-panel">
+          <h1><%= project[1] %></h1>
+          <% unless project[2].empty? %>
+            <p><a href="#" class="project-more-info-link">more info</a></p>
+          <% end %>
         </div>
-        <%#= image_tag project[0], :class=>"img-responsive portfolio-img" %>
       </div>
     </div>
-    <div class="row project-detail-row" style="display:none;">
-      <%= render :partial => "project_row", :locals => { data: project[2] } unless project[2].empty? %>
-    </div>
+    <% unless project[2].empty? %>
+      <div class="row project-detail-row" style="display:none;">
+        <div class="col-xs-12 text-center">
+          <%= render :partial => "project_row", :locals => { data: project[2] } %>
+        </div>
+      </div>
+    <% end %>
   </div>
 <% end %>
 <!-- end project list -->

@@ -1,19 +1,21 @@
-<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <strong><%= data[:brief] %></strong>
+    <hr>
+  </div>
+</div>
+<% data[:sections].each do |section| %>
   <div class="row">
     <div class="col-xs-12 text-center">
-      <strong><%= data[:brief] %></strong>
+      <% unless section[:title].empty? %> 
+        <h1><%= section[:title] %></h1>
+      <% end %>
+      <% unless section[:commentary].empty? %> 
+        <p><%= section[:commentary] %></p>
+      <% end %>
+      <% section[:images].each do |image| %>
+        <%= image_tag image, :class => 'center-block img-responsive' %>
+      <% end %>
     </div>
   </div>
-  <hr>
-  <% data[:sections].each do |section| %>
-    <div class="row">
-      <div class="col-xs-12 text-center">
-        <h1><%= section[:title] %></h1>
-        <p><%= section[:commentary] %></p>
-        <% section[:images].each do |image| %>
-          <%= image_tag image, :class => 'center-block img-responsive' %>
-        <% end %>
-      </div>
-    </div>
-  <% end %>
-</div>
+<% end %>
