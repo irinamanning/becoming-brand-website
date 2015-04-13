@@ -5,7 +5,7 @@
 <!-- project list -->
 <script>
   $(function() {
-    $('.project-detail-row').hide();
+    $('.project-detail-row').show();
 
     $('.project-more-info-link').click(function(e) {
       e.preventDefault();
@@ -14,19 +14,26 @@
   });
 </script>
 <% projects = [
-    ["work/felix-gilman.png", "Felix Gilman, Author", "gilman"], 
-    ["work/elite-gold.png", "Elite Gold", "elite"], 
-    ["work/bfi.png", "BFI", ""], 
-    ["work/swig.png", "Swig", ""], 
-    ["work/bb.png", "BB", ""], 
-    ["work/element.png", "Element", ""]
+    ["work/felix-gilman.png", "Felix Gilman, Author", 
+      { brief: "Brief...",
+        sections: [
+          { title: "Title 1", commentary: "stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff ", images: ["work/felix-detail-home.png"] },
+          { title: "Title 2", commentary: "stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff ", images: ["work/felix-detail-books.png"] }
+        ]
+      }
+    ],
+    ["work/elite-gold.png", "Elite Gold", []], 
+    ["work/bfi.png", "BFI", []], 
+    ["work/swig.png", "Swig", []], 
+    ["work/bb.png", "BB", []], 
+    ["work/element.png", "Element", []]
   ] %>
 <div style="height:50px">&nbsp;</div>
 <% projects.each do |project| %>
   <div class="project-row">
     <div class="row">
       <div class="col-xs-12">
-        <div class="project-summary-row" style="background-image: url('/assets/<%= project[0] %>');">
+        <div class="project-summary-row" style="background-image: url('<%= image_path project[0] %>');">
           <div class="project-info-panel">
             <h1><%= project[1] %></h1>
             <p><a href="#" class="project-more-info-link">More Info</a></p>
@@ -35,10 +42,8 @@
         <%#= image_tag project[0], :class=>"img-responsive portfolio-img" %>
       </div>
     </div>
-    <div class="row project-detail-row">
-      <div class="col-xs-12">
-        <%= render project[2] unless project[2].empty? %>
-      </div>
+    <div class="row project-detail-row" style="display:none;">
+      <%= render :partial => "project_row", :locals => { data: project[2] } unless project[2].empty? %>
     </div>
   </div>
 <% end %>

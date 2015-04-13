@@ -246,7 +246,31 @@
   color: white;
 }
 .project-detail-row {
-  
+  padding: 60px 0px 60px 0px;
+}
+.project-detail-row img {
+  margin-top: 30px;
+}
+.project-detail-row strong {
+  margin: 30px 30px;
+  font-size: 20px;
+  font-family: Avenir;
+  letter-spacing: 1px;
+  color: #555; 
+}
+.project-detail-row h1 {
+  margin: 30px 30px;
+  font-size: 18px;
+  font-family: Plantin;
+  color: #333; 
+}
+.project-detail-row p {
+  margin: 30px 30px;
+  font-size: 16px;
+  font-family: Avenir;
+  color: #333; 
+  width: 100%;
+  text-align: center;
 }
 
 /* end projects.html specific */
