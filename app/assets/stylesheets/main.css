@@ -37,8 +37,10 @@
 .navbar { /* boostrap override */
   background-color: #ed145b;  /* hot pink */
   opacity: 1;
-  max-height: 20px;
-  overflow: hidden;
+/*  max-height: 20px;
+*/  overflow: hidden;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 .navbar-default { /* boostrap override */
   border-width: 0px;
@@ -62,7 +64,7 @@
   width: 25px;
 }
 .im-content-section {
-  padding: 50px 30px 80px 30px;
+  padding: 50px 30px 0px 30px;
 }
 .im-content-section h1 {
   width: 100%;
@@ -215,6 +217,13 @@
 }
 #clients img {
   margin: 20px 0px;
+}
+
+#testimonial-author {
+  padding: 20px 0px 80px 0px;
+  font-family: Plantin;
+  font-size: 18px;
+  font-weight: 500px;
 }
 
 /* end index.html specific */
