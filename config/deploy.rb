@@ -22,6 +22,14 @@ namespace :deploy do
   after :finishing, 'deploy:cleanup'
 end
 
+namespace :deploy do
+  desc "Override deploy:cold to NOT run migrations - there's no database"
+  task :cold do
+    update
+    start
+  end
+end
+
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
