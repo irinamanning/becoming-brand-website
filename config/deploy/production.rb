@@ -6,9 +6,9 @@ set :stage, :production
 # server in each group is considered to be the first
 # unless any hosts have the primary property set.
 # Don't declare `role :all`, it's a meta role
-role :app, %w{deploy@example.com}
-role :web, %w{deploy@example.com}
-role :db,  %w{deploy@example.com}
+role :app, %w{root@104.236.53.198}
+role :web, %w{root@104.236.53.198}
+role :db,  %w{root@104.236.53.198}
 
 # Extended Server Syntax
 # ======================
