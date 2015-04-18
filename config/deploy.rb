@@ -11,6 +11,12 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 
 namespace :deploy do
 
+  desc "Override deploy:cold to NOT run migrations - there's no database"
+  task :cold do
+    update
+    start
+  end
+
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
@@ -22,13 +28,6 @@ namespace :deploy do
   after :finishing, 'deploy:cleanup'
 end
 
-namespace :deploy do
-  desc "Override deploy:cold to NOT run migrations - there's no database"
-  task :cold do
-    update
-    start
-  end
-end
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
