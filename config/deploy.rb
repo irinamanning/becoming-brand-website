@@ -10,13 +10,7 @@ set :deploy_to, '/root/deploy/irinamanning'
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 namespace :deploy do
-
-  desc "Override deploy:cold to NOT run migrations - there's no database"
-  task :cold do
-    update
-    start
-  end
-
+  
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
