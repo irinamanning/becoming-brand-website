@@ -5,8 +5,6 @@
 <!-- project list -->
 <script>
   $(function() {
-    
-
     $('.project-more-info-link').click(function(e) {
       e.preventDefault();
       $(this).parents('.project-row').children('.project-detail-row').toggle('blind');
@@ -69,7 +67,7 @@
         ]
       }]
   ] %>
-<div style="height:50px">&nbsp;</div>
+  
 <% projects.each do |project| %>
   <div class="container-fluid project-row">
     <div class="row">
