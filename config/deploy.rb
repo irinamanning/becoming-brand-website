@@ -11,10 +11,6 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 
 namespace :deploy do
 
-  desc "Disable ActiveRecord"
-  task :migrate do
-  end
-
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
