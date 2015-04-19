@@ -2,13 +2,39 @@
 
 <%= render :partial => 'menulist' %>
 
+<%= image_tag "menu-close-red.png", :id => "project-close" %>
+
 <!-- project list -->
 <script>
-  $(function() {
+  $(function() { 
+
+    function updateCloseButtonState() {
+      // update project close button state:
+      // if any panels are open, show the close button, else hide it
+      var makeVisible = ($('.project-detail-row:visible').length > 0);
+      $('#project-close').toggle(makeVisible);
+    }
+
+    $('#project-close').click(function(e) {
+      $('.project-detail-row:visible').toggle('blind', function() {
+        updateCloseButtonState();
+      });
+
+    });
+
     $('.project-more-info-link').click(function(e) {
       e.preventDefault();
-      $(this).parents('.project-row').children('.project-detail-row').toggle('blind');
+
+      // immediately close all visible panels
+      $('.project-detail-row:visible').toggle();
+
+      // animate in the target project row
+      var projectRow = $(this).parents('.project-row').children('.project-detail-row');
+      projectRow.toggle('blind', function() {
+        updateCloseButtonState();
+      });
     });
+
   });
 </script>
 <% projects = [

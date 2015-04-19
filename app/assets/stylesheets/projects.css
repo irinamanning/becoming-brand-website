@@ -1,0 +1,77 @@
+/* projects.html specific */
+
+.project-summary-row {
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 375px;
+}
+.project-summary-row .project-info-panel {
+  margin-top: 70px; /* TODO vertically align instead! */
+  position: relative;
+  top: 40px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+}
+.project-summary-row .project-info-panel h1 {
+  font-size: 32px;
+  font-family: Plantin;
+  text-transform: uppercase;
+  color: white;
+}
+.project-summary-row .project-info-panel p {
+  font-size: 16px;
+  color: white;
+  font-family: Plantin;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.project-summary-row .project-info-panel a {
+  color: white;
+}
+.project-detail-row {
+  padding: 60px 80px 60px 80px; /* TODO don't use pixels as conflicts with small screens */
+
+}
+.project-detail-row hr {
+  border-color: #DDD;
+  width: 50%;
+}
+.project-detail-row img {
+  margin-top: 30px;
+}
+.project-detail-row strong {
+  font-size: 24px;
+  font-family: Plantin;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #555; 
+}
+.project-detail-row h1 {
+  margin: 30px 30px;
+  font-size: 35px;
+  font-family: Plantin;
+  color: #333;
+  text-transform: uppercase;
+  
+}
+.project-detail-row p {
+  margin: 30px 30px;
+  font-size: 16px;
+  font-family: Avenir;
+  color: #333; 
+  text-align: center;
+}
+#project-close {
+  display: none;
+  position: fixed;
+  top: 210px;
+  right: 40px;
+  z-index: 1000;
+  width: 30px;
+}
+
+/* end projects.html specific */

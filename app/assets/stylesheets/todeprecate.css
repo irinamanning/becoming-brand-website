@@ -1,0 +1,267 @@
+.header-font {
+  font-size: 25px;
+  font-family: Plantin;
+  color: black;
+  /*font-style: italic;*/
+}
+
+a p.header-font:hover {
+   text-decoration: none;
+   opacity: 0.6;
+}
+
+.logo {
+  position: relative;
+  top: 37%;
+  
+  max-width: 150px;
+}
+
+#quote {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: right;
+  font-family: Plantin;
+  font-weight: 100;
+  color: silver;
+  font-style: italic;
+}
+
+span.author {
+  padding-right: 5px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.tagline {
+  position: absolute;
+  top: 62%;
+  left: 35%;
+}
+
+.page-title {
+  font-family: Plantin;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ed145b;
+}
+
+.get-in-touch-link {
+  font-family: Plantin;
+  font-size: 16px;
+  color: #ed145b;
+  font-weight: 600;
+}
+
+.get-in-touch-link:hover {
+  color: #ed145b; 
+}
+
+#close-icon {
+  position: absolute;
+  top: 20%;
+  right: 7.5%;
+  visibility: hidden;
+}
+
+
+
+
+
+.header-container {
+  padding: 0px 85px 0px 85px;
+}
+
+.big-text {
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+} 
+
+.red-background {
+  background-color: #ed145b;
+}
+
+.grey-background {
+  background-color: #dddddd;
+}
+
+.white-font {
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.grey-font {
+  color: grey;
+}
+
+.black-font {
+  color: black;
+  opacity: 75%;
+}
+
+.big-padding-top {
+  padding-top: 60px;
+}
+
+.big-padding-bottom {
+  padding-bottom: 60px;
+}
+
+.small-padding-top {
+  padding-top: 30px;
+}
+
+.small-padding-bottom {
+  padding-bottom: 30px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.padding-left {
+  padding-left: 85px;
+}
+
+.padding-right {
+  padding-right: 85px;
+}
+
+img.full-screen {
+  width: 100%;
+}
+
+img.img-centered {
+  margin: auto;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 20px;
+  line-height: 70px;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 24px;
+  margin: 0px;
+  font-family: Avenir;
+  font-weight: 200;
+}
+
+h3 {
+  margin: 0px;  
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.principles {
+  font-family: Plantin;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.principles-section {
+  position: absolute;
+  top: 2%;
+}
+
+.tag-line {
+  font-weight: 100;
+  font-family: Plantin;
+  font-style: italic;
+  font-size: 50px;
+}
+
+hr {
+  width: 520px;
+}
+
+a.link-white:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+ul li a.link-grey:hover {
+  color: #ed145b;
+  text-decoration: none;
+}
+
+
+a.link-white img:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+a.link-white p:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+div a.link-red:hover {
+  color: #ed145b;
+}
+
+a.link-black:hover {
+  opacity: 0.5;
+}
+
+a.link-black p:hover {
+  color: white;
+  text-decoration: none;
+}
+
+div a.link-black:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.client-name {
+  font-family: Plantin;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.testimonial {
+  font-family: Plantin;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.copyright {
+  font-size: 12px;
+  font-family: Avenir;
+}
+
+.red-font {
+  color: #ed145b;
+}
+/*.project-details {
+  visibility: hidden;
+}*/
+

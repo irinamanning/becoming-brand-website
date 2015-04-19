@@ -1,0 +1,97 @@
+.navbar { /* boostrap override */
+  background-color: #ed145b;  /* hot pink */
+  opacity: 1;
+  overflow: hidden;
+}
+.navbar-default { /* boostrap override */
+  border-width: 0px;
+}
+.navbar p { 
+}
+.navbar a {
+  color: #222;
+  font-size: 22px;
+  color: #222;
+  font-family: Plantin;
+  text-transform: uppercase;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: white;
+}
+.navbar img { 
+  width: 25px;
+}
+.im-content-section {
+  padding: 50px 30px 0px 30px;
+}
+.im-content-section h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: Plantin;
+  color: #ed145b; /* hot pink */
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 20px 0px;
+}
+
+#nav-menu-icon {
+  position: fixed;
+  top: 110px;
+  right: 40px;
+  z-index: 1000;
+}
+
+#nav-menu-icon:hover {
+  opacity: 0.6;
+}
+
+#nav-menu {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding: 180px 40px 50px 10px;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 1000;
+  font-family: Plantin;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#nav-menu.visible {
+  visibility: visible;
+}
+
+#nav-menu-close {
+  position: relative;
+  top: -18px;
+  left: 220px;
+  width: 30px; 
+}
+
+#nav-menu-list {
+  margin: 20px 0px 0px 0px;
+  list-style: none;
+  line-height: 100px;
+  text-align: right;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+#nav-menu-list a {
+  color: white;
+  text-transform: uppercase;
+}
+
+#nav-menu-list li a:hover {
+  color: #ed145b; /* bright pink */
+  text-decoration: none;
+}
+
+#nav-menu-close:hover {
+  opacity: 0.6; 
+}
