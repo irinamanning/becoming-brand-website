@@ -36,15 +36,20 @@
       ["graphic-design-circle-bw.png", "graphic-design-circle.png", "Branding", "Improve your web presence and bring in more site engagement with better branding."]
     ] %>
     <%#== unused snippets: Custom logo and theme design is our specialty. %>
-    <% props.each do |prop| %>
-      <div class="col-sm-4 text-center">
-        <%= link_to 'projects' do %><%= image_tag prop[0] %><% end %>
-        <%= image_tag prop[0], :class => "regular", :style => "display:none;" %>
-        <%= image_tag prop[1], :class => "highlight", :style => "display:none;" %>
-        <%= link_to 'projects' do %><h3 class="red-font skill-name text-center"><%= prop[2] %></h3><% end %>
-        <p class="text-center big-padding-bottom"><%= prop[3] %></p>
+    <div class="col-sm-1 text-center"> </div>
+    <div class="col-sm-10 text-center"> 
+      <div class="row">
+          <% props.each do |prop| %>
+            <div class="col-md-4 col-sm-12 text-center">
+              <%= link_to 'projects' do %><%= image_tag prop[0] %><% end %>
+              <%= image_tag prop[0], :class => "regular", :style => "display:none;" %>
+              <%= image_tag prop[1], :class => "highlight", :style => "display:none;" %>
+              <%= link_to 'projects' do %><h3 class="red-font skill-name text-center"><%= prop[2] %></h3><% end %>
+              <p class="text-center big-padding-bottom"><%= prop[3] %></p>
+            </div>
+          <% end %>
       </div>
-    <% end %>
+    <div class="col-sm-1 text-center"> </div>
   </div>
 </div>
 <!-- end what we do -->

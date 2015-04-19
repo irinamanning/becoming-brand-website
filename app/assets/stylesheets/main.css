@@ -37,30 +37,25 @@
 .navbar { /* boostrap override */
   background-color: #ed145b;  /* hot pink */
   opacity: 1;
-/*  max-height: 20px;
-*/  overflow: hidden;
-padding-top: 30px;
-padding-bottom: 30px;
+  overflow: hidden;
 }
 .navbar-default { /* boostrap override */
   border-width: 0px;
 }
 .navbar p { 
+}
+.navbar a {
+  color: #222;
   font-size: 22px;
   color: #222;
   font-family: Plantin;
   text-transform: uppercase;
-  margin: 15px 0px 10px 0px;
-}
-.navbar a {
-  color: #222;
 }
 .navbar a:hover {
   text-decoration: none;
   color: white;
 }
 .navbar img { 
-  margin: 12px 0px;
   width: 25px;
 }
 .im-content-section {
@@ -79,7 +74,7 @@ padding-bottom: 30px;
 
 #nav-menu-icon {
   position: fixed;
-  top: 80px;
+  top: 110px;
   right: 40px;
   z-index: 1000;
 }
@@ -94,7 +89,7 @@ padding-bottom: 30px;
   position: fixed;
   top: 0px;
   right: 0px;
-  padding: 150px 50px 50px 10px;
+  padding: 180px 40px 50px 10px;
   background-color: black;
   opacity: 0.8;
   z-index: 1000;
@@ -110,7 +105,7 @@ padding-bottom: 30px;
 #nav-menu-close {
   position: relative;
   top: -18px;
-  left: 230px;
+  left: 220px;
 }
 
 #nav-menu-list {
@@ -162,7 +157,7 @@ padding-bottom: 30px;
   background-size: cover;
   padding: 180px 0px 0px 0px;
   color: white;
-  height: 590px;
+  height: 700px;
 }
 #hero-banner img { 
   max-width: 150px;
@@ -176,8 +171,17 @@ padding-bottom: 30px;
   font-style: italic;
 }
 
+#value-props {
+  
+}
 #value-props a:hover {
   text-decoration: none;
+}
+#value-props img {
+  width: 270px;
+}
+#value-props p {
+  margin: 0px 30px;
 }
 
 #principles {
