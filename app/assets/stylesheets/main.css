@@ -172,7 +172,7 @@
 }
 
 #value-props {
-  
+  padding-bottom: 100px;
 }
 #value-props a:hover {
   text-decoration: none;
@@ -180,8 +180,20 @@
 #value-props img {
   width: 270px;
 }
+#value-props h1 {
+  margin: 0px 0px 40px 0px;
+}
+#value-props h2 {
+  font-size: 32px;
+  color: #ed145b;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-family: Plantin;
+  font-style: italic;
+}
 #value-props p {
   margin: 0px 30px;
+  font-size: 18px;
 }
 
 #principles {
@@ -189,10 +201,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 100px 0px;
+  padding-bottom: 100px;
 }
 #principles h1 {
-
+  margin: 0px 0px 20px 0px;
 }
 #principles h2 {
   width: 100%;
@@ -209,7 +221,7 @@
   margin: auto;
   padding: 5px 0px 50px 0px;
   color: white; 
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   font-family: Avenir;
   font-weight: 200; 
@@ -218,7 +230,7 @@
 #clients {
 }
 #clients img {
-  margin: 20px 0px;
+  margin: 20px 50px;
 }
 
 #testimonial-author {
@@ -226,6 +238,7 @@
   font-family: Plantin;
   font-size: 18px;
   font-weight: 500px;
+  color: #ed145b;
 }
 
 /* end index.html specific */
@@ -404,10 +417,6 @@ span.author {
   background-color: #dddddd;
 }
 
-.red-font {
-  color: #ed145b;
-}
-
 .white-font {
   color: #ffffff;
   font-weight: 100;
@@ -496,15 +505,6 @@ a {
   line-height: 35px;
 }
 
-.skill-name {
-  font-size: 22px;
-  padding-top: 25px;
-  padding-bottom: 10px;
-  font-family: Plantin;
-  font-style: italic;
-
-}
-
 .principles {
   font-family: Plantin;
   font-style: italic;
@@ -585,6 +585,9 @@ div a.link-black:hover {
   font-family: Avenir;
 }
 
+.red-font {
+  color: #ed145b;
+}
 /*.project-details {
   visibility: hidden;
 }*/

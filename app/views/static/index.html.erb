@@ -37,18 +37,21 @@
     ] %>
     <%#== unused snippets: Custom logo and theme design is our specialty. %>
     <div class="col-sm-1 text-center"> </div>
-    <div class="col-sm-10 text-center"> 
+    <div class="col-sm-10  text-center"> 
       <div class="row">
-          <% props.each do |prop| %>
-            <div class="col-md-4 col-sm-12 text-center">
-              <%= link_to 'projects' do %><%= image_tag prop[0] %><% end %>
-              <%= image_tag prop[0], :class => "regular", :style => "display:none;" %>
-              <%= image_tag prop[1], :class => "highlight", :style => "display:none;" %>
-              <%= link_to 'projects' do %><h3 class="red-font skill-name text-center"><%= prop[2] %></h3><% end %>
-              <p class="text-center big-padding-bottom"><%= prop[3] %></p>
-            </div>
-          <% end %>
+        <% props.each do |prop| %>
+          <div class="col-md-4 col-sm-12 text-center">
+            <%= link_to 'projects' do %><%= image_tag prop[0] %><% end %>
+            <%= image_tag prop[0], :class => "regular", :style => "display:none;" %>
+            <%= image_tag prop[1], :class => "highlight", :style => "display:none;" %>
+            <%= link_to 'projects' do %>
+              <h2 class="text-center"><%= prop[2] %></h2>
+            <% end %>
+            <p class="text-center"><%= prop[3] %></p>
+          </div>
+        <% end %>
       </div>
+    </div>
     <div class="col-sm-1 text-center"> </div>
   </div>
 </div>
@@ -58,27 +61,32 @@
 <div id="principles" class="container-fluid im-content-section" style="background-image: url('<%= image_path "irinamanning-hero-image.png" %>');">
   <div class="row"> 
     <div class="col-sm-12 text-center">
-      <h1>Our Principles</h1>
+      <div class="row"> 
+        <div class="col-sm-12 text-center">
+          <h1>Our Principles</h1>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col-sm-12 text-center">
+          <h2>Designing with Your Business Goals in Mind</h2>
+          <p>True passion for design, attention to detail, and writing quality code is what I bring into every project. From the first client meeting to finally deploying a website, I approach every step of a project with care, pragmatism and attention to detail. Nothing is sub-contracted.</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col-sm-12 text-center">
+          <h2>Basing Our Design Solutions on Research and Numbers</h2>
+          <p>We work carefully to listen very carefully to clients' requests and carefully consider all opinions. If something is not realistic or there may be a better way of approaching a problem, clear, pragmatic choices are offered.</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col-sm-12 text-center">
+          <h2>Paying the Closest Attention to Every Little Detail</h2>
+          <p>Planning, designing and delivering a website that meets every clients' unique goals should be a painless, exciting and rewarding experience, not an endless negotiation.</p>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="row"> 
-    <div class="col-sm-12 text-center">
-      <h2>Designing with Your Business Goals in Mind</h2>
-      <p>True passion for design, attention to detail, and writing quality code is what I bring into every project. From the first client meeting to finally deploying a website, I approach every step of a project with care, pragmatism and attention to detail. Nothing is sub-contracted.</p>
-    </div>
-  </div>
-  <div class="row"> 
-    <div class="col-sm-12 text-center">
-      <h2>Basing Our Design Solutions on Research and Numbers</h2>
-      <p>We work carefully to listen very carefully to clients' requests and carefully consider all opinions. If something is not realistic or there may be a better way of approaching a problem, clear, pragmatic choices are offered.</p>
-    </div>
-  </div>
-  <div class="row"> 
-    <div class="col-sm-12 text-center">
-      <h2>Paying the Closest Attention to Every Little Detail</h2>
-      <p>Planning, designing and delivering a website that meets every clients' unique goals should be a painless, exciting and rewarding experience, not an endless negotiation.</p>
-    </div>
-  </div>
+  
 </div>
 <!-- end principles -->
 
@@ -91,18 +99,20 @@
   </div>
   <%#= TODO may want to link these to respective sites? %>
   <% logos = %w(qvc-logo.png rlg-logo.png felixgilman.png mc-logo.png swig-logo.png) %>
-  <% logos.each do |logo| %>
-    <div class="row">
-      <div class="col-sm-12 text-center">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <% logos.each do |logo| %>
         <%= image_tag logo %>
-      </div> 
+      <% end %>
     </div> 
-  <% end %>
-</div>
-
-  </div>  
-    <p class="red-font big-padding-top text-center testimonial" style="max-width: 800px; margin: auto"><i>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</i></p>
-    <p class="red-font text-center" id="testimonial-author"><b>N.Manning, CTO at Swig</b></p>
+  </div> 
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <p class="red-font big-padding-top text-center testimonial" style="max-width: 800px; margin: auto"><i>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</i></p>
+      <p class="red-font text-center" id="testimonial-author">
+        <b>N.Manning, CTO at Swig</b>
+      </p>
+    </div>
   </div>
 </div>
 <!-- end clients -->
