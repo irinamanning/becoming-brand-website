@@ -1,22 +1,30 @@
-<div class="container-fluid">
+<%= render :partial => 'nav' %>
   
-  <%= render :partial => 'nav' %>
-    
-  <%= render :partial => 'menulist' %>
+<%= render :partial => 'menulist' %>
 
-  <% groups = [[7, 2, 4], [6, 5, 9], [1, 8, 14], [17, 20, 13], [19, 10, 18], [16, 21, 3], [12, 11]] %>
-  <div class="row instragram-photos">
-    <% groups.each do |group| %>
-      <div class="row instagram-photo-row">
-        <% group.each do |file| %>
-          <div class="col-sm-4">
-            <%= image_tag "instagram-img/#{file}.jpg", :class=>"img-responsive" %>
-          </div>
-        <% end %>
-      </div> 
-    <% end %>
-  </div>
+<script>
+  $(function() {
+    $('.fancybox').fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none'
+    });
+  });
+</script>
 
-  <%= render :partial => 'footer' %>
-
+<% groups = [[7, 2, 4], [6, 5, 9], [1, 8, 14], [17, 20, 13], [19, 10, 18], [16, 21, 3], [12, 11]] %>
+<div class="row instragram-photos">
+  <% groups.each do |group| %>
+    <div class="row instagram-photo-row">
+      <% group.each do |file| %>
+        <div class="col-sm-4">
+          <a href="<%= asset_path "instagram/#{file}.jpg" %>" class="fancybox" rel="gallery">
+            <%= image_tag "instagram/#{file}.jpg", :class=>"img-responsive" %>
+          </a>
+        </div>
+      <% end %>
+    </div> 
+  <% end %>
 </div>
+
+<%= render :partial => 'footer' %>
+
