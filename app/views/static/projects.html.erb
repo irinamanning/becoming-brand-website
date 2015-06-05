@@ -46,6 +46,22 @@
         ]
       }
     ],
+    ["work/aura.png", "Aura",
+      { brief: "",
+        sections: [
+          { title: "", commentary: "", images: ["work/aura-1.jpg"] },
+          { title: "", commentary: "", images: [] }
+        ]
+      }, "#000000"
+    ],
+    ["work/migm-bg.jpg", "May is Gold Month",
+      { brief: "",
+        sections: [
+          { title: "", commentary: "", images: ["work/migm-1.jpg"] },
+          { title: "", commentary: "", images: [] }
+        ]
+      }, "#000000"
+    ],
     ["work/elite-gold.png", "Elite Gold",
       { brief: "The Elite Gold story is one of luxury and sophistication designed for the woman on the go. Whether it’s in the board room of a Fortune 500 company or on a ball­room dance floor, Elite Gold is made to wear in any occasion. Crafted from the finest 14 karat gold, the assortment of earrings, necklaces, rings, and bangles complements any style or occasion. Elite Gold is “timeless” and so are you!",
         sections: [
@@ -107,9 +123,10 @@
     <div class="row">
       <div class="col-xs-12 project-summary-row" style="background-image: url('<%= image_path project[0] %>');">
         <div class="project-info-panel">
-          <h1><%= project[1] %></h1>
+          <% style = "color:#{(project[3] ? project[3] : "#FFFFFF")}" %>
+          <h1 style="<%= style %>"><%= project[1] %></h1>
           <% unless project[2].empty? %>
-            <p><a href="#" class="project-more-info-link">more info</a></p>
+            <p><a href="#" class="project-more-info-link" style="<%= style %>">more info</a></p>
           <% end %>
         </div>
       </div>
